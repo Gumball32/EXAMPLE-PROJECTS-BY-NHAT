@@ -1,0 +1,6 @@
+C:\Users\HP\source\repos\MainFinalProjectApp\IContract\bin\Debug\IContract.dll
+C:\Users\HP\source\repos\MainFinalProjectApp\IContract\bin\Debug\IContract.pdb
+C:\Users\HP\source\repos\MainFinalProjectApp\IContract\obj\Debug\IContract.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\MainFinalProjectApp\IContract\obj\Debug\IContract.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\MainFinalProjectApp\IContract\obj\Debug\IContract.dll
+C:\Users\HP\source\repos\MainFinalProjectApp\IContract\obj\Debug\IContract.pdb

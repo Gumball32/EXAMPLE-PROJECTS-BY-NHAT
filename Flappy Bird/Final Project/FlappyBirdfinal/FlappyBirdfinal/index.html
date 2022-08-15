@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+         
+    <link rel="stylesheet" href="css/style.css">
+    <title>Flappy Bird</title>
+</head>
+
+<body>
+    <div class="wrap">
+    <div class="background" id="bg"></div> 
+    
+
+    <div class="bird">
+        <img src="img/flap3.jpeg" alt="bird-img">
+    </div>  
+
+    <div class="message text-white font-weight-bold">
+        Press Enter To Start Game
+    </div>
+    <div class="score">
+        <span class="score_title"></span>
+        <span class="score_val"></span>
+    </div>
+   <div class="back btn-back btn-lg btn text-white">Back</div>
+   <div class="recordsaved btn-lg"><i class="fa fa-trophy"></i></div>
+   <div class="form d-none" id="participant-form">
+       <div class="container">
+        <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Name</label>
+              <input type="text" class="form-control name" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Your Name" required>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Score</label>
+                <h5 class="updateScore"></h5>
+            </div>
+            <div class="form-group mt-5">
+                <label class="sr-only" for="inlineFormInputGroup">Username</label>
+                <div class="input-group mb-2">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text">@</div>
+                  </div>
+                  <input type="text" class="form-control username" id="inlineFormInputGroup" placeholder="Username" required>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block submit">Submit</button>
+          </form>
+       </div>
+   </div>
+</div>
+    
+
+    <div class="main-menu">
+        <div class="menu-wrapper d-flex flex-column">
+            <div class="logo">
+                <img src="img/logo_game.png" alt="logo game">
+            </div>
+
+            <div class="btn-play btn my-5 text-light">Play</div>
+
+            <div class="btn-leaderboard btn text-light">Leaderboard</div>
+
+            <div class="btn-costume btn my-5 text-light dropdown dropright">
+                <button type="button" class="btn dropdown-toggle text-white" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Customize</button>
+                <div class="dropdown-menu ">
+                    <div class="d-flex cusBird">
+                        <div class="block">
+                            <button class="dropdown-item cus1" type="button" style="width:50px"><img src="img/flapp.png" height="35"/></button>
+                            <button class="dropdown-item cus2" type="button" style="width:90px"><img src="img/bird8.png" height="35"/></button>
+                            <button class="dropdown-item cus3" type="button" style="width:50px"><img src="img/bird6.png" height="35"/></button>
+                            
+                        </div>
+                        <div class="block">
+                            <button class="dropdown-item cus4" type="button" style="width:50px"><img src="img/bird3.png" height="35"/></button>
+                            <button class="dropdown-item cus5" type="button" style="width:50px"><img src="img/bird4.png" height="35"/></button>
+                            <button class="dropdown-item cus6" type="button" style="width:50px"><img src="img/bird5.png" height="35"/></button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="btn-background btn text-light dropdown dropright">
+                <button type="button" class="btn dropdown-toggle text-white" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                 Background</button>
+                <div class="dropdown-menu">
+                    <div class="d-flex">
+                        <div class="block">
+                            <button class="dropdown-item bg1" type="button" style="width:50px"><img src="img/jungle.png"  style="width: 40px" height="35"/></button>
+                            <button class="dropdown-item bg2" type="button" style="width:50px"><img src="img/city.png" style="width: 40px" height="35"/></button>
+                            <button class="dropdown-item bg3" type="button" style="width:50px"><img src="img/christmas.jpg" style="width: 40px" height="35"/></button>
+                            
+                        </div>
+                        <div class="block2">
+                            <button class="dropdown-item bg4" type="button" style="width:50px"><img src="img/background.png" style="width: 40px" height="35"/></button>
+                            <button class="dropdown-item bg5" type="button" style="width:90px"><img src="img/night.jpg" style="width: 40px" height="35"/></button>
+                            <button class="dropdown-item bg6" type="button" style="width:50px"><img src="img/flower.png" style="width: 40px" height="35"/></button>
+                        </div>
+
+                    </div>
+                </div>
+            </div> 
+            <div class="btn-level btn text-light dropdown dropright mt-5">
+                <button type="button" class="btn dropdown-toggle text-white" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                 Level</button>
+                <div class="dropdown-menu">
+                    <div class="d-flex">
+                        <div class="block">
+                            <button class="dropdown-item level_easy text-center ml-3" type="button" style="width:100%">Easy</button>
+                            <button class="dropdown-item level_medium text-center ml-3" type="button" style="width:100%">Medium</button>
+                            <button class="dropdown-item level_difficult text-center ml-3" type="button" style="width:100%">Difficult</button>
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="leaderboard-shown" id="hide">
+                <table class="table">
+                    <button type="button" name="button" class="close"><i class="fa fa-close"></i></button>
+                    <h5 class="text-center font-weight-bold">LEADERBOARD</h5>
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Score</th>
+                        <th scope="col">Username</th>
+                      </tr>
+                    </thead>
+                    <tbody class="participant">
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>50</td>
+                        <td>@mdo</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>47</td>
+                        <td>@fat</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>Larry</td>
+                        <td>30</td>
+                        <td>@twitter</td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </div>
+
+            
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  
+</body>
+
+</html>

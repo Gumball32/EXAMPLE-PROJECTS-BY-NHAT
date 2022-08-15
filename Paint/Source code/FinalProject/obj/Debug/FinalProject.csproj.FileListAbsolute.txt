@@ -1,0 +1,298 @@
+C:\Users\HP\source\repos\MainFinalProjectApp\FinalProject\bin\Debug\FinalProject.exe.config
+C:\Users\HP\source\repos\MainFinalProjectApp\FinalProject\bin\Debug\FinalProject.exe
+C:\Users\HP\source\repos\MainFinalProjectApp\FinalProject\bin\Debug\FinalProject.pdb
+C:\Users\HP\source\repos\MainFinalProjectApp\FinalProject\bin\Debug\ControlzEx.dll
+C:\Users\HP\source\repos\MainFinalProjectApp\FinalProject\bin\Debug\Fluent.dll
+C:\Users\HP\source\repos\MainFinalProjectApp\FinalProject\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\HP\source\repos\MainFinalProjectApp\FinalProject\bin\Debug\ControlzEx.pdb
+C:\Users\HP\source\repos\MainFinalProjectApp\FinalProject\bin\Debug\ControlzEx.xml
+C:\Users\HP\source\repos\MainFinalProjectApp\FinalProject\bin\Debug\Fluent.pdb
+C:\Users\HP\source\repos\MainFinalProjectApp\FinalProject\bin\Debug\Fluent.xml
+C:\Users\HP\source\repos\MainFinalProjectApp\FinalProject\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\HP\source\repos\MainFinalProjectApp\FinalProject\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\HP\source\repos\MainFinalProjectApp\FinalProject\obj\Debug\FinalProject.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\MainFinalProjectApp\FinalProject\obj\Debug\Layer.g.cs
+C:\Users\HP\source\repos\MainFinalProjectApp\FinalProject\obj\Debug\MainWindow.g.cs
+C:\Users\HP\source\repos\MainFinalProjectApp\FinalProject\obj\Debug\ResizeWindow.g.cs
+C:\Users\HP\source\repos\MainFinalProjectApp\FinalProject\obj\Debug\App.g.cs
+C:\Users\HP\source\repos\MainFinalProjectApp\FinalProject\obj\Debug\FinalProject_MarkupCompile.cache
+C:\Users\HP\source\repos\MainFinalProjectApp\FinalProject\obj\Debug\FinalProject_MarkupCompile.lref
+C:\Users\HP\source\repos\MainFinalProjectApp\FinalProject\obj\Debug\App.baml
+C:\Users\HP\source\repos\MainFinalProjectApp\FinalProject\obj\Debug\Layer.baml
+C:\Users\HP\source\repos\MainFinalProjectApp\FinalProject\obj\Debug\MainWindow.baml
+C:\Users\HP\source\repos\MainFinalProjectApp\FinalProject\obj\Debug\ResizeWindow.baml
+C:\Users\HP\source\repos\MainFinalProjectApp\FinalProject\obj\Debug\FinalProject.g.resources
+C:\Users\HP\source\repos\MainFinalProjectApp\FinalProject\obj\Debug\FinalProject.Properties.Resources.resources
+C:\Users\HP\source\repos\MainFinalProjectApp\FinalProject\obj\Debug\FinalProject.csproj.GenerateResource.cache
+C:\Users\HP\source\repos\MainFinalProjectApp\FinalProject\obj\Debug\FinalProject.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\MainFinalProjectApp\FinalProject\obj\Debug\FinalProject.csproj.CopyComplete
+C:\Users\HP\source\repos\MainFinalProjectApp\FinalProject\obj\Debug\FinalProject.exe
+C:\Users\HP\source\repos\MainFinalProjectApp\FinalProject\obj\Debug\FinalProject.pdb
+C:\Users\HP\source\repos\MainFinalProjectApp\FinalProject\bin\Debug\IContract.dll
+C:\Users\HP\source\repos\MainFinalProjectApp\FinalProject\bin\Debug\IContract.pdb
+C:\Users\HP\source\repos\MainFinalProjectApp\FinalProject\bin\Debug\MyEllipse01.dll
+C:\Users\HP\source\repos\MainFinalProjectApp\FinalProject\bin\Debug\MyEllipseDrawer01.dll
+C:\Users\HP\source\repos\MainFinalProjectApp\FinalProject\bin\Debug\MyLine01.dll
+C:\Users\HP\source\repos\MainFinalProjectApp\FinalProject\bin\Debug\MyLineDrawer01.dll
+C:\Users\HP\source\repos\MainFinalProjectApp\FinalProject\bin\Debug\MyRectangle01.dll
+C:\Users\HP\source\repos\MainFinalProjectApp\FinalProject\bin\Debug\MyRectangleDrawer01.dll
+C:\Users\HP\source\repos\MainFinalProjectApp\FinalProject\bin\Debug\MyEllipse01.pdb
+C:\Users\HP\source\repos\MainFinalProjectApp\FinalProject\bin\Debug\MyEllipseDrawer01.pdb
+C:\Users\HP\source\repos\MainFinalProjectApp\FinalProject\bin\Debug\MyLine01.pdb
+C:\Users\HP\source\repos\MainFinalProjectApp\FinalProject\bin\Debug\MyLineDrawer01.pdb
+C:\Users\HP\source\repos\MainFinalProjectApp\FinalProject\bin\Debug\MyRectangle01.pdb
+C:\Users\HP\source\repos\MainFinalProjectApp\FinalProject\bin\Debug\MyRectangleDrawer01.pdb
+C:\Users\84975\Downloads\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\FinalProject.csproj.AssemblyReference.cache
+C:\Users\84975\Downloads\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\Layer.g.cs
+C:\Users\84975\Downloads\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\MainWindow.g.cs
+C:\Users\84975\Downloads\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\ResizeWindow.g.cs
+C:\Users\84975\Downloads\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\App.g.cs
+C:\Users\84975\Downloads\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\FinalProject_MarkupCompile.cache
+C:\Users\84975\Downloads\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\FinalProject_MarkupCompile.lref
+C:\Users\84975\Downloads\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\App.baml
+C:\Users\84975\Downloads\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\Layer.baml
+C:\Users\84975\Downloads\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\MainWindow.baml
+C:\Users\84975\Downloads\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\ResizeWindow.baml
+C:\Users\84975\Downloads\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\FinalProject.g.resources
+C:\Users\84975\Downloads\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\FinalProject.pdb
+C:\Users\84975\Downloads\MainFinalProjectApp\MainFinalProjectApp\FinalProject\bin\Debug\FinalProject.exe.config
+C:\Users\84975\Downloads\MainFinalProjectApp\MainFinalProjectApp\FinalProject\bin\Debug\FinalProject.exe
+C:\Users\84975\Downloads\MainFinalProjectApp\MainFinalProjectApp\FinalProject\bin\Debug\FinalProject.pdb
+C:\Users\84975\Downloads\MainFinalProjectApp\MainFinalProjectApp\FinalProject\bin\Debug\ControlzEx.dll
+C:\Users\84975\Downloads\MainFinalProjectApp\MainFinalProjectApp\FinalProject\bin\Debug\Fluent.dll
+C:\Users\84975\Downloads\MainFinalProjectApp\MainFinalProjectApp\FinalProject\bin\Debug\IContract.dll
+C:\Users\84975\Downloads\MainFinalProjectApp\MainFinalProjectApp\FinalProject\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\84975\Downloads\MainFinalProjectApp\MainFinalProjectApp\FinalProject\bin\Debug\IContract.pdb
+C:\Users\84975\Downloads\MainFinalProjectApp\MainFinalProjectApp\FinalProject\bin\Debug\ControlzEx.pdb
+C:\Users\84975\Downloads\MainFinalProjectApp\MainFinalProjectApp\FinalProject\bin\Debug\ControlzEx.xml
+C:\Users\84975\Downloads\MainFinalProjectApp\MainFinalProjectApp\FinalProject\bin\Debug\Fluent.pdb
+C:\Users\84975\Downloads\MainFinalProjectApp\MainFinalProjectApp\FinalProject\bin\Debug\Fluent.xml
+C:\Users\84975\Downloads\MainFinalProjectApp\MainFinalProjectApp\FinalProject\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\84975\Downloads\MainFinalProjectApp\MainFinalProjectApp\FinalProject\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\84975\Downloads\MainFinalProjectApp\MainFinalProjectApp\FinalProject\bin\Debug\MyEllipse01.pdb
+C:\Users\84975\Downloads\MainFinalProjectApp\MainFinalProjectApp\FinalProject\bin\Debug\MyEllipseDrawer01.pdb
+C:\Users\84975\Downloads\MainFinalProjectApp\MainFinalProjectApp\FinalProject\bin\Debug\MyLine01.pdb
+C:\Users\84975\Downloads\MainFinalProjectApp\MainFinalProjectApp\FinalProject\bin\Debug\MyLineDrawer01.pdb
+C:\Users\84975\Downloads\MainFinalProjectApp\MainFinalProjectApp\FinalProject\bin\Debug\MyRectangle01.pdb
+C:\Users\84975\Downloads\MainFinalProjectApp\MainFinalProjectApp\FinalProject\bin\Debug\MyRectangleDrawer01.pdb
+C:\Users\84975\Downloads\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\FinalProject.Properties.Resources.resources
+C:\Users\84975\Downloads\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\FinalProject.csproj.GenerateResource.cache
+C:\Users\84975\Downloads\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\FinalProject.csproj.CoreCompileInputs.cache
+C:\Users\84975\Downloads\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\FinalProject.csproj.CopyComplete
+C:\Users\84975\Downloads\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\FinalProject.exe
+C:\Users\84975\Downloads\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\HP\Downloads\MainFinalProjectApp\MainFinalProjectApp\FinalProject\bin\Debug\FinalProject.exe.config
+C:\Users\HP\Downloads\MainFinalProjectApp\MainFinalProjectApp\FinalProject\bin\Debug\FinalProject.exe
+C:\Users\HP\Downloads\MainFinalProjectApp\MainFinalProjectApp\FinalProject\bin\Debug\FinalProject.pdb
+C:\Users\HP\Downloads\MainFinalProjectApp\MainFinalProjectApp\FinalProject\bin\Debug\ControlzEx.dll
+C:\Users\HP\Downloads\MainFinalProjectApp\MainFinalProjectApp\FinalProject\bin\Debug\Fluent.dll
+C:\Users\HP\Downloads\MainFinalProjectApp\MainFinalProjectApp\FinalProject\bin\Debug\IContract.dll
+C:\Users\HP\Downloads\MainFinalProjectApp\MainFinalProjectApp\FinalProject\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\HP\Downloads\MainFinalProjectApp\MainFinalProjectApp\FinalProject\bin\Debug\IContract.pdb
+C:\Users\HP\Downloads\MainFinalProjectApp\MainFinalProjectApp\FinalProject\bin\Debug\ControlzEx.pdb
+C:\Users\HP\Downloads\MainFinalProjectApp\MainFinalProjectApp\FinalProject\bin\Debug\ControlzEx.xml
+C:\Users\HP\Downloads\MainFinalProjectApp\MainFinalProjectApp\FinalProject\bin\Debug\Fluent.pdb
+C:\Users\HP\Downloads\MainFinalProjectApp\MainFinalProjectApp\FinalProject\bin\Debug\Fluent.xml
+C:\Users\HP\Downloads\MainFinalProjectApp\MainFinalProjectApp\FinalProject\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\HP\Downloads\MainFinalProjectApp\MainFinalProjectApp\FinalProject\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\HP\Downloads\MainFinalProjectApp\MainFinalProjectApp\FinalProject\bin\Debug\MyEllipse01.pdb
+C:\Users\HP\Downloads\MainFinalProjectApp\MainFinalProjectApp\FinalProject\bin\Debug\MyEllipseDrawer01.pdb
+C:\Users\HP\Downloads\MainFinalProjectApp\MainFinalProjectApp\FinalProject\bin\Debug\MyLine01.pdb
+C:\Users\HP\Downloads\MainFinalProjectApp\MainFinalProjectApp\FinalProject\bin\Debug\MyLineDrawer01.pdb
+C:\Users\HP\Downloads\MainFinalProjectApp\MainFinalProjectApp\FinalProject\bin\Debug\MyRectangle01.pdb
+C:\Users\HP\Downloads\MainFinalProjectApp\MainFinalProjectApp\FinalProject\bin\Debug\MyRectangleDrawer01.pdb
+C:\Users\HP\Downloads\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\FinalProject.csproj.AssemblyReference.cache
+C:\Users\HP\Downloads\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\Layer.g.cs
+C:\Users\HP\Downloads\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\MainWindow.g.cs
+C:\Users\HP\Downloads\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\ResizeWindow.g.cs
+C:\Users\HP\Downloads\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\App.g.cs
+C:\Users\HP\Downloads\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\HP\Downloads\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\FinalProject_MarkupCompile.cache
+C:\Users\HP\Downloads\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\FinalProject_MarkupCompile.lref
+C:\Users\HP\Downloads\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\App.baml
+C:\Users\HP\Downloads\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\Layer.baml
+C:\Users\HP\Downloads\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\MainWindow.baml
+C:\Users\HP\Downloads\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\ResizeWindow.baml
+C:\Users\HP\Downloads\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\FinalProject.g.resources
+C:\Users\HP\Downloads\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\FinalProject.Properties.Resources.resources
+C:\Users\HP\Downloads\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\FinalProject.csproj.GenerateResource.cache
+C:\Users\HP\Downloads\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\FinalProject.csproj.CoreCompileInputs.cache
+C:\Users\HP\Downloads\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\FinalProject.csproj.CopyComplete
+C:\Users\HP\Downloads\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\FinalProject.exe
+C:\Users\HP\Downloads\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\FinalProject.pdb
+C:\Users\HP\Downloads\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\EditShape.g.cs
+C:\Users\HP\Downloads\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\EditShape.baml
+C:\Users\HP\Downloads\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\EditLine.g.cs
+C:\Users\HP\Downloads\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\EditLine.baml
+C:\Users\LENOVO\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\bin\Debug\FinalProject.exe.config
+C:\Users\LENOVO\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\bin\Debug\FinalProject.exe
+C:\Users\LENOVO\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\bin\Debug\FinalProject.pdb
+C:\Users\LENOVO\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\bin\Debug\ControlzEx.dll
+C:\Users\LENOVO\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\bin\Debug\Fluent.dll
+C:\Users\LENOVO\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\bin\Debug\IContract.dll
+C:\Users\LENOVO\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\LENOVO\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\bin\Debug\IContract.pdb
+C:\Users\LENOVO\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\bin\Debug\ControlzEx.pdb
+C:\Users\LENOVO\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\bin\Debug\ControlzEx.xml
+C:\Users\LENOVO\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\bin\Debug\Fluent.pdb
+C:\Users\LENOVO\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\bin\Debug\Fluent.xml
+C:\Users\LENOVO\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\LENOVO\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\LENOVO\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\bin\Debug\MyEllipse01.pdb
+C:\Users\LENOVO\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\bin\Debug\MyEllipseDrawer01.pdb
+C:\Users\LENOVO\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\bin\Debug\MyLine01.pdb
+C:\Users\LENOVO\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\bin\Debug\MyLineDrawer01.pdb
+C:\Users\LENOVO\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\bin\Debug\MyRectangle01.pdb
+C:\Users\LENOVO\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\bin\Debug\MyRectangleDrawer01.pdb
+C:\Users\LENOVO\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\FinalProject.csprojAssemblyReference.cache
+C:\Users\LENOVO\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\EditLine.g.cs
+C:\Users\LENOVO\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\EditShape.g.cs
+C:\Users\LENOVO\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\Layer.g.cs
+C:\Users\LENOVO\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\MainWindow.g.cs
+C:\Users\LENOVO\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\ResizeWindow.g.cs
+C:\Users\LENOVO\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\App.g.cs
+C:\Users\LENOVO\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\LENOVO\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\FinalProject_MarkupCompile.cache
+C:\Users\LENOVO\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\FinalProject_MarkupCompile.lref
+C:\Users\LENOVO\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\App.baml
+C:\Users\LENOVO\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\EditLine.baml
+C:\Users\LENOVO\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\EditShape.baml
+C:\Users\LENOVO\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\Layer.baml
+C:\Users\LENOVO\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\MainWindow.baml
+C:\Users\LENOVO\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\ResizeWindow.baml
+C:\Users\LENOVO\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\FinalProject.g.resources
+C:\Users\LENOVO\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\FinalProject.Properties.Resources.resources
+C:\Users\LENOVO\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\FinalProject.csproj.GenerateResource.cache
+C:\Users\LENOVO\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\FinalProject.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\FinalProject.csproj.CopyComplete
+C:\Users\LENOVO\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\FinalProject.exe
+C:\Users\LENOVO\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\FinalProject.pdb
+C:\Users\84975\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\bin\Debug\FinalProject.exe.config
+C:\Users\84975\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\bin\Debug\FinalProject.exe
+C:\Users\84975\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\bin\Debug\FinalProject.pdb
+C:\Users\84975\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\bin\Debug\ControlzEx.dll
+C:\Users\84975\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\bin\Debug\Fluent.dll
+C:\Users\84975\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\bin\Debug\IContract.dll
+C:\Users\84975\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\84975\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\bin\Debug\IContract.pdb
+C:\Users\84975\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\bin\Debug\ControlzEx.pdb
+C:\Users\84975\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\bin\Debug\ControlzEx.xml
+C:\Users\84975\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\bin\Debug\Fluent.pdb
+C:\Users\84975\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\bin\Debug\Fluent.xml
+C:\Users\84975\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\84975\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\84975\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\bin\Debug\MyEllipse01.pdb
+C:\Users\84975\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\bin\Debug\MyEllipseDrawer01.pdb
+C:\Users\84975\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\bin\Debug\MyLine01.pdb
+C:\Users\84975\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\bin\Debug\MyLineDrawer01.pdb
+C:\Users\84975\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\bin\Debug\MyRectangle01.pdb
+C:\Users\84975\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\bin\Debug\MyRectangleDrawer01.pdb
+C:\Users\84975\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\FinalProject.csproj.AssemblyReference.cache
+C:\Users\84975\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\EditLine.g.cs
+C:\Users\84975\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\EditShape.g.cs
+C:\Users\84975\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\Layer.g.cs
+C:\Users\84975\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\MainWindow.g.cs
+C:\Users\84975\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\ResizeWindow.g.cs
+C:\Users\84975\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\App.g.cs
+C:\Users\84975\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\84975\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\FinalProject_MarkupCompile.cache
+C:\Users\84975\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\FinalProject_MarkupCompile.lref
+C:\Users\84975\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\App.baml
+C:\Users\84975\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\EditLine.baml
+C:\Users\84975\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\EditShape.baml
+C:\Users\84975\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\Layer.baml
+C:\Users\84975\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\MainWindow.baml
+C:\Users\84975\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\ResizeWindow.baml
+C:\Users\84975\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\FinalProject.g.resources
+C:\Users\84975\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\FinalProject.Properties.Resources.resources
+C:\Users\84975\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\FinalProject.csproj.GenerateResource.cache
+C:\Users\84975\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\FinalProject.csproj.CoreCompileInputs.cache
+C:\Users\84975\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\FinalProject.csproj.CopyComplete
+C:\Users\84975\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\FinalProject.exe
+C:\Users\84975\Downloads\MainFinalProjectApp\MainFinalProjectApp\MainFinalProjectApp\FinalProject\obj\Debug\FinalProject.pdb
+C:\Users\HP\Downloads\Paint\Source code\FinalProject\bin\Debug\FinalProject.exe.config
+C:\Users\HP\Downloads\Paint\Source code\FinalProject\bin\Debug\FinalProject.exe
+C:\Users\HP\Downloads\Paint\Source code\FinalProject\bin\Debug\FinalProject.pdb
+C:\Users\HP\Downloads\Paint\Source code\FinalProject\bin\Debug\ControlzEx.dll
+C:\Users\HP\Downloads\Paint\Source code\FinalProject\bin\Debug\Fluent.dll
+C:\Users\HP\Downloads\Paint\Source code\FinalProject\bin\Debug\IContract.dll
+C:\Users\HP\Downloads\Paint\Source code\FinalProject\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\HP\Downloads\Paint\Source code\FinalProject\bin\Debug\IContract.pdb
+C:\Users\HP\Downloads\Paint\Source code\FinalProject\bin\Debug\ControlzEx.pdb
+C:\Users\HP\Downloads\Paint\Source code\FinalProject\bin\Debug\ControlzEx.xml
+C:\Users\HP\Downloads\Paint\Source code\FinalProject\bin\Debug\Fluent.pdb
+C:\Users\HP\Downloads\Paint\Source code\FinalProject\bin\Debug\Fluent.xml
+C:\Users\HP\Downloads\Paint\Source code\FinalProject\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\HP\Downloads\Paint\Source code\FinalProject\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\HP\Downloads\Paint\Source code\FinalProject\bin\Debug\MyEllipse01.pdb
+C:\Users\HP\Downloads\Paint\Source code\FinalProject\bin\Debug\MyEllipseDrawer01.pdb
+C:\Users\HP\Downloads\Paint\Source code\FinalProject\bin\Debug\MyLine01.pdb
+C:\Users\HP\Downloads\Paint\Source code\FinalProject\bin\Debug\MyLineDrawer01.pdb
+C:\Users\HP\Downloads\Paint\Source code\FinalProject\bin\Debug\MyRectangle01.pdb
+C:\Users\HP\Downloads\Paint\Source code\FinalProject\bin\Debug\MyRectangleDrawer01.pdb
+C:\Users\HP\Downloads\Paint\Source code\FinalProject\obj\Debug\FinalProject.csproj.AssemblyReference.cache
+C:\Users\HP\Downloads\Paint\Source code\FinalProject\obj\Debug\EditLine.g.cs
+C:\Users\HP\Downloads\Paint\Source code\FinalProject\obj\Debug\EditShape.g.cs
+C:\Users\HP\Downloads\Paint\Source code\FinalProject\obj\Debug\Layer.g.cs
+C:\Users\HP\Downloads\Paint\Source code\FinalProject\obj\Debug\MainWindow.g.cs
+C:\Users\HP\Downloads\Paint\Source code\FinalProject\obj\Debug\ResizeWindow.g.cs
+C:\Users\HP\Downloads\Paint\Source code\FinalProject\obj\Debug\App.g.cs
+C:\Users\HP\Downloads\Paint\Source code\FinalProject\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\HP\Downloads\Paint\Source code\FinalProject\obj\Debug\FinalProject_MarkupCompile.cache
+C:\Users\HP\Downloads\Paint\Source code\FinalProject\obj\Debug\FinalProject_MarkupCompile.lref
+C:\Users\HP\Downloads\Paint\Source code\FinalProject\obj\Debug\App.baml
+C:\Users\HP\Downloads\Paint\Source code\FinalProject\obj\Debug\EditLine.baml
+C:\Users\HP\Downloads\Paint\Source code\FinalProject\obj\Debug\EditShape.baml
+C:\Users\HP\Downloads\Paint\Source code\FinalProject\obj\Debug\Layer.baml
+C:\Users\HP\Downloads\Paint\Source code\FinalProject\obj\Debug\MainWindow.baml
+C:\Users\HP\Downloads\Paint\Source code\FinalProject\obj\Debug\ResizeWindow.baml
+C:\Users\HP\Downloads\Paint\Source code\FinalProject\obj\Debug\FinalProject.g.resources
+C:\Users\HP\Downloads\Paint\Source code\FinalProject\obj\Debug\FinalProject.Properties.Resources.resources
+C:\Users\HP\Downloads\Paint\Source code\FinalProject\obj\Debug\FinalProject.csproj.GenerateResource.cache
+C:\Users\HP\Downloads\Paint\Source code\FinalProject\obj\Debug\FinalProject.csproj.CoreCompileInputs.cache
+C:\Users\HP\Downloads\Paint\Source code\FinalProject\obj\Debug\FinalProject.csproj.CopyComplete
+C:\Users\HP\Downloads\Paint\Source code\FinalProject\obj\Debug\FinalProject.exe
+C:\Users\HP\Downloads\Paint\Source code\FinalProject\obj\Debug\FinalProject.pdb
+C:\Users\HP\source\repos\Paint\Source code\FinalProject\bin\Debug\FinalProject.exe.config
+C:\Users\HP\source\repos\Paint\Source code\FinalProject\bin\Debug\FinalProject.exe
+C:\Users\HP\source\repos\Paint\Source code\FinalProject\bin\Debug\FinalProject.pdb
+C:\Users\HP\source\repos\Paint\Source code\FinalProject\bin\Debug\ControlzEx.dll
+C:\Users\HP\source\repos\Paint\Source code\FinalProject\bin\Debug\Fluent.dll
+C:\Users\HP\source\repos\Paint\Source code\FinalProject\bin\Debug\IContract.dll
+C:\Users\HP\source\repos\Paint\Source code\FinalProject\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\HP\source\repos\Paint\Source code\FinalProject\bin\Debug\IContract.pdb
+C:\Users\HP\source\repos\Paint\Source code\FinalProject\bin\Debug\ControlzEx.pdb
+C:\Users\HP\source\repos\Paint\Source code\FinalProject\bin\Debug\ControlzEx.xml
+C:\Users\HP\source\repos\Paint\Source code\FinalProject\bin\Debug\Fluent.pdb
+C:\Users\HP\source\repos\Paint\Source code\FinalProject\bin\Debug\Fluent.xml
+C:\Users\HP\source\repos\Paint\Source code\FinalProject\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\HP\source\repos\Paint\Source code\FinalProject\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\HP\source\repos\Paint\Source code\FinalProject\bin\Debug\MyEllipse01.pdb
+C:\Users\HP\source\repos\Paint\Source code\FinalProject\bin\Debug\MyEllipseDrawer01.pdb
+C:\Users\HP\source\repos\Paint\Source code\FinalProject\bin\Debug\MyLine01.pdb
+C:\Users\HP\source\repos\Paint\Source code\FinalProject\bin\Debug\MyLineDrawer01.pdb
+C:\Users\HP\source\repos\Paint\Source code\FinalProject\bin\Debug\MyRectangle01.pdb
+C:\Users\HP\source\repos\Paint\Source code\FinalProject\bin\Debug\MyRectangleDrawer01.pdb
+C:\Users\HP\source\repos\Paint\Source code\FinalProject\obj\Debug\FinalProject.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\Paint\Source code\FinalProject\obj\Debug\EditLine.g.cs
+C:\Users\HP\source\repos\Paint\Source code\FinalProject\obj\Debug\EditShape.g.cs
+C:\Users\HP\source\repos\Paint\Source code\FinalProject\obj\Debug\Layer.g.cs
+C:\Users\HP\source\repos\Paint\Source code\FinalProject\obj\Debug\MainWindow.g.cs
+C:\Users\HP\source\repos\Paint\Source code\FinalProject\obj\Debug\ResizeWindow.g.cs
+C:\Users\HP\source\repos\Paint\Source code\FinalProject\obj\Debug\App.g.cs
+C:\Users\HP\source\repos\Paint\Source code\FinalProject\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\HP\source\repos\Paint\Source code\FinalProject\obj\Debug\FinalProject_MarkupCompile.cache
+C:\Users\HP\source\repos\Paint\Source code\FinalProject\obj\Debug\FinalProject_MarkupCompile.lref
+C:\Users\HP\source\repos\Paint\Source code\FinalProject\obj\Debug\App.baml
+C:\Users\HP\source\repos\Paint\Source code\FinalProject\obj\Debug\EditLine.baml
+C:\Users\HP\source\repos\Paint\Source code\FinalProject\obj\Debug\EditShape.baml
+C:\Users\HP\source\repos\Paint\Source code\FinalProject\obj\Debug\Layer.baml
+C:\Users\HP\source\repos\Paint\Source code\FinalProject\obj\Debug\MainWindow.baml
+C:\Users\HP\source\repos\Paint\Source code\FinalProject\obj\Debug\ResizeWindow.baml
+C:\Users\HP\source\repos\Paint\Source code\FinalProject\obj\Debug\FinalProject.g.resources
+C:\Users\HP\source\repos\Paint\Source code\FinalProject\obj\Debug\FinalProject.Properties.Resources.resources
+C:\Users\HP\source\repos\Paint\Source code\FinalProject\obj\Debug\FinalProject.csproj.GenerateResource.cache
+C:\Users\HP\source\repos\Paint\Source code\FinalProject\obj\Debug\FinalProject.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\Paint\Source code\FinalProject\obj\Debug\FinalProject.csproj.CopyComplete
+C:\Users\HP\source\repos\Paint\Source code\FinalProject\obj\Debug\FinalProject.exe
+C:\Users\HP\source\repos\Paint\Source code\FinalProject\obj\Debug\FinalProject.pdb
