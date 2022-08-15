@@ -1,0 +1,17 @@
+.btn-edit {
+    border: 1px solid slategrey;
+    margin-bottom: 21px;
+    background: forestgreen;
+    width: 20%;
+    border-radius: 30px;
+    height: 33px;
+}
+
+.btn-edit:hover {
+    background-color: darkgreen;
+    transition: 500ms;
+}
+
+.Properties-full {
+    justify-content: space-around;
+}

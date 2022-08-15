@@ -1,0 +1,17 @@
+.review-add {
+    border-radius: 20px;
+}
+
+.btn-save {
+    border: 1px solid slategrey;
+    margin-bottom: 21px;
+    background: pink;
+    width: 100%;
+    border-radius: 30px;
+    height: 32px;
+}
+
+.btn-save:hover {
+    background-color: #ff385c;
+    transition: 500ms;
+}

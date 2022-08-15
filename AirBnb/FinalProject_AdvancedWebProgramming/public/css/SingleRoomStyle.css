@@ -1,0 +1,60 @@
+.rating-room {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 36px;
+}
+
+
+.table1-information {
+    justify-content: space-between;
+}
+
+.btn-back {
+    border: 1px solid slategrey;
+    margin-bottom: 21px;
+    background: orange;
+    width: 20%;
+    border-radius: 30px;
+    height: 33px;
+}
+
+.btn-back:hover {
+    background-color: orangered;
+    transition: 500ms;
+}
+
+.btn-delete {
+    border: 1px solid slategrey;
+    margin-bottom: 21px;
+    background: orangered;
+    width: 320%;
+    border-radius: 30px;
+    height: 35px;
+    margin-left: -10px;
+}
+
+.btn-delete:hover {
+    background-color: darkred;
+    transition: 500ms;
+}
+
+.btn-delete2 {
+    border: 1px solid slategrey;
+    margin-bottom: 21px;
+    background: orangered;
+    width: 26%;
+    border-radius: 30px;
+    height: 32px;
+}
+
+.btn-delete:hover {
+    background-color: darkred;
+    transition: 500ms;
+}
+
+.board {
+    border-radius: 20px;
+    border: 1px outset;
+    box-shadow: 5px 8px lavender;
+}
+

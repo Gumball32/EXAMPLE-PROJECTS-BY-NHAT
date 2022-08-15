@@ -1,0 +1,21 @@
+button.btn-login {
+    border: 1px solid slategrey;
+    margin-bottom: 21px;
+    background: pink;
+    width: 26%;
+    border-radius: 30px;
+    height: 32px;
+}
+
+.board_login {
+    border-radius: 20px;
+    border: 1px outset;
+    box-shadow: 8px 12px lavender;
+    
+}
+
+.btn-login:hover {
+    background-color: #ff385c;
+    transition: 500ms;
+}
+

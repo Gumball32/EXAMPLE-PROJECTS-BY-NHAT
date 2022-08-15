@@ -1,0 +1,1831 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.choices {
+    border: 0.1rem solid #EEEEEE;
+    border-radius: 2rem;
+}
+
+.choices {
+    height: 7vh;
+}
+
+.choices button:hover:first-child,
+.choices button:hover:nth-child(2) {
+    text-decoration: none;
+    cursor: pointer;
+    border-right: 1px solid rgb(213, 208, 208);
+    border-radius: 0;
+    /* bacskground-color: pink; */
+}
+
+.choices button:hover {
+    text-decoration: none;
+    cursor: pointer;
+    border-right: 1px solid rgb(213, 208, 208);
+    border-radius: 0;
+    /* bacskground-color: pink; */
+}
+
+.choices button:first-child,
+.choices button:nth-child(2) {
+    background-color: #fff;
+    border: none;
+    border-right: 1px solid rgb(213, 208, 208);
+    border-radius: 0;
+}
+
+.form-control {
+    display: block;
+    /* width: 3rem; */
+    padding: 0.375rem 0.75rem;
+    font-size: 0.75rem;
+    line-height: 1.5;
+    color: #495057;
+    /* background-color: #fff; */
+    background-image: none;
+    background-clip: padding-box;
+    /* border: 1px solid #ced4da; */
+    border-radius: 0.25rem;
+    /* transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s; */
+}
+
+.menuDes {
+    display: none;
+    background-color: #A5BECC;
+}
+
+.calendar {
+    display: none;
+    background-color: #A5BECC;
+}
+
+.menuGuest {
+    display: none;
+    background-color: #A5BECC;
+}
+
+.menuGuest a:hover {
+    background-color: #92a5b0;
+    cursor: pointer;
+}
+
+.profile button {
+    background-color: #fff;
+    border: none;
+}
+
+.profile button:hover {
+    background-color: #EEEEEE;
+    border-radius: 2rem;
+}
+
+.Z-1 {
+    z-index: -1;
+}
+
+.menuDes a:hover {
+    text-decoration: none;
+    border: 0.1rem solid #000;
+}
+
+.calendar button {
+    border-radius: 1.25rem;
+    height: 7vh;
+    width: 10vw;
+}
+
+.calendar button:hover {
+    /* border-radius: 1.25rem; */
+    border: 1px solid #000;
+    cursor: pointer;
+}
+
+.date a {
+    width: 6rem;
+    text-align: center;
+}
+
+.date a:hover {
+    cursor: pointer;
+}
+
+
+/*Scroll Horizontally*/
+
+.horizontal-scroll .main-content li {
+    font-family: sans-serif;
+    margin-left: 20px;
+    list-style: none;
+    flex: 1;
+    cursor: pointer;
+}
+
+.horizontal-scroll .main-content li a {
+    color: #7a7a7a;
+    display: inline-block;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.horizontal-scroll .main-content li .active {
+    color: #000;
+    border-bottom: 2px solid #000;
+    width: 100%;
+    border-radius: 1px;
+    transition: 0.5s ease;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    white-space: nowrap;
+}
+
+.horizontal-scroll .main-content li :hover {
+    color: #000;
+}
+
+
+/*.main-content .menu {
+    line-height: 30px;
+    margin-left: 20px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}*/
+
+
+/*.horizontal-scroll .main-content .menu .active {
+    border-bottom: 2px solid #000;
+    width: 100%;
+    border-radius: 1px;
+    transition: 0.5s ease;
+    color: #000;
+}*/
+
+
+/*.main-content .menu :hover {
+    border-bottom: 2px solid #b4b4b4;
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+}*/
+
+
+/*.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}*/
+
+.horizontal-scroll {
+    width: 100%;
+    height: 100px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.horizontal-scroll .btn-scroll {
+    background-color: #ffffff;
+    color: #999;
+    padding: 2px 8px;
+    border-radius: 50%;
+    margin: 0px 5px;
+    z-index: 1;
+    cursor: pointer;
+    border: 1px solid #b0b0b0;
+    transition: 500ms;
+}
+
+.btn-scroll:hover {
+    box-shadow: 0 0 10px #999;
+}
+
+.header-part2 {
+    display: flex;
+    flex-direction: row;
+    margin-right: 40px;
+}
+
+.btn-filter {
+    width: 90px;
+    height: 40px;
+    margin-top: 25px;
+    border-radius: 11px;
+    background-color: #ffffff;
+    border: 1px solid #7a7a7a;
+    transition: 500ms;
+}
+
+.btn-filter:hover {
+    box-shadow: 0 0 10px #999;
+}
+
+
+/* Dropdown Button */
+
+.wrapper .profile .dropdown button {
+    width: 70px;
+    height: 40px;
+    /* margin-top: 25px; */
+    border-radius: 30px;
+    background-color: #ffffff;
+    border: 1px solid #7a7a7a;
+    transition: 500ms;
+    cursor: pointer;
+}
+
+
+/* Dropdown button on hover & focus */
+
+.wrapper .profile .btn-dropdown:hover,
+.wrapper .profile .btn-dropdown:focus {
+    box-shadow: 0 0 10px #999;
+}
+
+
+/* The container <div> - needed to position the dropdown content */
+
+.wrapper .profile .dropdown {
+    position: relative;
+    display: inline-block;
+    white-space: nowrap;
+    margin-right: 20px;
+}
+
+
+/* Dropdown Content (Hidden by Default) */
+
+.wrapper .profile .dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+    border-radius: 14px
+}
+
+
+/* Links inside the dropdown */
+
+.wrapper .profile .dropdown-menu a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+/* Change color of dropdown links on hover */
+
+.wrapper .profile .dropdown-menu a:hover {
+    background-color: rgb(241, 214, 218)
+}
+
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+
+.show {
+    display: block;
+}
+
+
+/* Bootstrap css */
+
+
+/* ==========================================================================
+   #FONT
+   ========================================================================== */
+.font-robo {
+  font-family: "Roboto", "Arial", "Helvetica Neue", sans-serif;
+}
+
+.font-poppins {
+  font-family: "Poppins", "Arial", "Helvetica Neue", sans-serif;
+}
+
+/* ==========================================================================
+   #GRID
+   ========================================================================== */
+.row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.row-space {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -moz-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.col-2 {
+  width: -webkit-calc((100% - 60px) / 2);
+  width: -moz-calc((100% - 60px) / 2);
+  width: calc((100% - 60px) / 2);
+}
+
+@media (max-width: 767px) {
+  .col-2 {
+    width: 100%;
+  }
+}
+
+/* ==========================================================================
+   #BOX-SIZING
+   ========================================================================== */
+/**
+ * More sensible default box-sizing:
+ * css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice
+ */
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+/* ==========================================================================
+   #RESET
+   ========================================================================== */
+/**
+ * A very simple reset that sits on top of Normalize.css.
+ */
+body,
+h1, h2, h3, h4, h5, h6,
+blockquote, p, pre,
+dl, dd, ol, ul,
+figure,
+hr,
+fieldset, legend {
+  margin: 0;
+  padding: 0;
+}
+
+/**
+ * Remove trailing margins from nested lists.
+ */
+li > ol,
+li > ul {
+  margin-bottom: 0;
+}
+
+/**
+ * Remove default table spacing.
+ */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/**
+ * 1. Reset Chrome and Firefox behaviour which sets a `min-width: min-content;`
+ *    on fieldsets.
+ */
+fieldset {
+  min-width: 0;
+  /* [1] */
+  border: 0;
+}
+
+button {
+  outline: none;
+  background: none;
+  border: none;
+}
+
+/* ==========================================================================
+   #PAGE WRAPPER
+   ========================================================================== */
+.page-wrapper {
+  min-height: 100vh;
+}
+
+body {
+  font-family: "Poppins", "Arial", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+h5 {
+  font-size: 15px;
+}
+
+h6 {
+  font-size: 13px;
+}
+
+/* ==========================================================================
+   #BACKGROUND
+   ========================================================================== */
+.bg-blue {
+  background: #2c6ed5;
+}
+
+.bg-red {
+  background: #fa4251;
+}
+
+.bg-gra-01 {
+  background: -webkit-gradient(linear, left bottom, left top, from(#fbc2eb), to(#a18cd1));
+  background: -webkit-linear-gradient(bottom, #fbc2eb 0%, #a18cd1 100%);
+  background: -moz-linear-gradient(bottom, #fbc2eb 0%, #a18cd1 100%);
+  background: -o-linear-gradient(bottom, #fbc2eb 0%, #a18cd1 100%);
+  background: linear-gradient(to top, #fbc2eb 0%, #a18cd1 100%);
+}
+
+/* ==========================================================================
+   #SPACING
+   ========================================================================== */
+.p-t-100 {
+  padding-top: 100px;
+}
+
+.p-t-180 {
+  padding-top: 180px;
+}
+
+.p-t-20 {
+  padding-top: 20px;
+}
+
+.p-t-10 {
+  padding-top: 10px;
+}
+
+.p-t-30 {
+  padding-top: 30px;
+}
+
+.p-b-100 {
+  padding-bottom: 100px;
+}
+
+/* ==========================================================================
+   #WRAPPER
+   ========================================================================== */
+.wrapper {
+  margin: 0 auto;
+}
+
+.wrapper--w960 {
+  max-width: 960px;
+}
+
+.wrapper--w780 {
+  max-width: 780px;
+}
+
+.wrapper--w680 {
+  max-width: 680px;
+}
+
+/* ==========================================================================
+   #BUTTON
+   ========================================================================== */
+.btn {
+  display: inline-block;
+  line-height: 40px;
+  padding: 0 33px;
+  font-family: Poppins, Arial, "Helvetica Neue", sans-serif;
+  cursor: pointer;
+  color: #fff;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  font-size: 18px;
+}
+
+.btn--radius {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.btn--pill {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
+
+.btn--green {
+  background: #57b846;
+}
+
+.btn--green:hover {
+  background: #4dae3c;
+}
+
+/* ==========================================================================
+   #DATE PICKER
+   ========================================================================== */
+td.active {
+  background-color: #2c6ed5;
+}
+
+input[type="date" i] {
+  padding: 14px;
+}
+
+.table-condensed td, .table-condensed th {
+  font-size: 14px;
+  font-family: "Roboto", "Arial", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+}
+
+.daterangepicker td {
+  width: 40px;
+  height: 30px;
+}
+
+.daterangepicker {
+  border: none;
+  -webkit-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+  display: none;
+  border: 1px solid #e0e0e0;
+  margin-top: 5px;
+}
+
+.daterangepicker::after, .daterangepicker::before {
+  display: none;
+}
+
+.daterangepicker thead tr th {
+  padding: 10px 0;
+}
+
+.daterangepicker .table-condensed th select {
+  border: 1px solid #ccc;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  font-size: 14px;
+  padding: 5px;
+  outline: none;
+}
+
+/* ==========================================================================
+   #FORM
+   ========================================================================== */
+input {
+  outline: none;
+  margin: 0;
+  border: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  width: 100%;
+  font-size: 14px;
+  font-family: inherit;
+}
+
+.input-icon {
+  position: absolute;
+  font-size: 18px;
+  color: #ccc;
+  right: 8px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.input-group {
+  position: relative;
+  margin-bottom: 33px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.input--style-3 {
+  padding: 5px 0;
+  font-size: 16px;
+  color: #ccc;
+  background: transparent;
+}
+
+.input--style-3::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: #ccc;
+}
+
+.input--style-3:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #ccc;
+  opacity: 1;
+}
+
+.input--style-3::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #ccc;
+  opacity: 1;
+}
+
+.input--style-3:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #ccc;
+}
+
+.input--style-3:-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #ccc;
+}
+
+/* ==========================================================================
+   #SELECT2
+   ========================================================================== */
+.select--no-search .select2-search {
+  display: none !important;
+}
+
+.rs-select2 .select2-container {
+  width: 100% !important;
+  outline: none;
+}
+
+.rs-select2 .select2-container .select2-selection--single {
+  outline: none;
+  border: none;
+  height: 36px;
+  background: transparent;
+}
+
+.rs-select2 .select2-container .select2-selection--single .select2-selection__rendered {
+  line-height: 36px;
+  padding-left: 0;
+  color: #ccc;
+  font-size: 16px;
+  font-family: inherit;
+}
+
+.rs-select2 .select2-container .select2-selection--single .select2-selection__arrow {
+  height: 34px;
+  right: 4px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.rs-select2 .select2-container .select2-selection--single .select2-selection__arrow b {
+  display: none;
+}
+
+.rs-select2 .select2-container .select2-selection--single .select2-selection__arrow:after {
+  font-family: "Material-Design-Iconic-Font";
+  content: '\f2f9';
+  font-size: 18px;
+  color: #ccc;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.rs-select2 .select2-container.select2-container--open .select2-selection--single .select2-selection__arrow::after {
+  -webkit-transform: rotate(-180deg);
+  -moz-transform: rotate(-180deg);
+  -ms-transform: rotate(-180deg);
+  -o-transform: rotate(-180deg);
+  transform: rotate(-180deg);
+}
+
+.select2-container--open .select2-dropdown--below {
+  border: none;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+  border: 1px solid #e0e0e0;
+  margin-top: 5px;
+  overflow: hidden;
+}
+
+/* ==========================================================================
+   #TITLE
+   ========================================================================== */
+.title {
+  font-size: 24px;
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 36px;
+}
+
+/* ==========================================================================
+   #CARD
+   ========================================================================== */
+.card {
+  overflow: hidden;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background: #fff;
+}
+
+.card-3 {
+  background: #000;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  display: table;
+}
+
+.card-3 .card-heading {
+  background: url("../images/bg-heading-03.jpg") top left/cover no-repeat;
+  display: table-cell;
+  width: 50%;
+}
+
+.card-3 .card-body {
+  padding: 57px 65px;
+  padding-bottom: 65px;
+  display: table-cell;
+}
+
+@media (max-width: 767px) {
+  .card-3 {
+    display: block;
+  }
+  .card-3 .card-heading {
+    display: block;
+    width: 100%;
+    padding-top: 400px;
+    background-position: center center;
+  }
+  .card-3 .card-body {
+    display: block;
+    width: 100%;
+    padding: 37px 30px;
+    padding-bottom: 45px;
+  }
+}
+
+.section {
+    position: relative;
+    height: 100vh;
+}
+
+.section .section-center {
+    position: absolute;
+    left: 0;
+    right: 0;
+    /* -webkit-transform: translateY(-50%); */
+    /* transform: translateY(-50%); */
+}
+
+#booking {
+    font-family: 'Raleway', sans-serif;
+}
+
+.booking-form {
+    position: relative;
+    max-width: 768px;
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.booking-form .form-header {
+    margin-bottom: 25px;
+}
+
+.booking-form .form-header h2 {
+    margin: 0;
+    font-weight: 400;
+    color: #2B4F60;
+    font-size: 42px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.booking-form .form-group {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.booking-form .form-control {
+    /* background-color: transparent; */
+    height: 65px;
+    padding: 0px;
+    padding-top: 15px;
+    border-radius: 0px;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+    color: #333;
+    border: 0px;
+    font-size: 16px;
+    font-weight: 700;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    text-transform: capitalize;
+    border-bottom: 2px solid #EAD3CB;
+}
+
+.booking-form .form-control::-webkit-input-placeholder {
+    color: #BDC7C9;
+}
+
+.booking-form .form-control:-ms-input-placeholder {
+    /* color: rgba(255, 255, 255, 0.3); */
+    color: #BDC7C9;
+}
+
+.booking-form .form-control::placeholder {
+    /* color: rgba(255, 255, 255, 0.3); */
+    /* color: rgba(139, 136, 136, 0.3); */
+    color: #BDC7C9;
+}
+
+.booking-form input[type="date"].form-control:invalid,
+.booking-form input[type="time"].form-control:invalid {
+    color: rgb(222, 222, 222);
+}
+
+.booking-form select.form-control {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.booking-form select.form-control option {
+    color: #1a1b1d;
+}
+
+.booking-form select.form-control+.select-arrow {
+    position: absolute;
+    right: 0px;
+    bottom: 4px;
+    width: 32px;
+    line-height: 32px;
+    height: 32px;
+    text-align: center;
+    pointer-events: none;
+}
+
+.booking-form select.form-control+.select-arrow:after {
+    content: '\279C';
+    display: block;
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    color: #cecccd;
+    font-size: 14px;
+}
+
+.booking-form select.form-control~.form-label {
+    opacity: 0.5;
+    color: #cecccd;
+}
+
+.booking-form .form-label {
+    color: #845460;
+    font-weight: 700;
+    line-height: 24px;
+    height: 24px;
+    font-size: 14px;
+    position: absolute;
+    left: 0;
+    top: 26px;
+    opacity: 0;
+    text-transform: capitalize;
+    pointer-events: none;
+    -webkit-transition: 0.2s all;
+    transition: 0.2s all;
+}
+
+select.form-control:not([size]):not([multiple]) {
+    /* height: calc(2.25rem + 2px); */
+}
+
+.booking-form .form-group:not(.input-not-empty) .form-control:not(:focus) {
+    color: transparent;
+}
+
+.booking-form input[type="date"].form-control+.form-label,
+.booking-form input[type="time"].form-control+.form-label {
+    color: #BDC7C9;
+    opacity: 1;
+}
+
+.booking-form input[type="date"].form-control:focus+.form-label,
+.booking-form input[type="time"].form-control:focus+.form-label {
+    opacity: 1;
+    top: 0px;
+    color: #845460 !important;
+}
+
+.booking-form .form-group.input-not-empty .form-label {
+    opacity: 1;
+    top: 0px;
+    color: #845460 !important;
+}
+
+.booking-form .form-btn {
+    margin-top: 25px;
+}
+
+.booking-form .submit-btn {
+    color: #2B4F60;
+    background-color: #BDC7C9;
+    font-weight: 700;
+    height: 55px;
+    padding: 10px 35px;
+    font-size: 18px;
+    border-radius: 0px;
+    width: 100%;
+    border: 2px solid #EAD3CB;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.choices {
+  border: 0.1rem solid #EEEEEE;
+  border-radius: 2rem;
+}
+
+.choices {
+  height: 7vh;
+}
+
+.choices button:hover:first-child,
+.choices button:hover:nth-child(2) {
+  text-decoration: none;
+  cursor: pointer;
+  border-right: 1px solid rgb(213, 208, 208);
+  border-radius: 0;
+}
+
+.choices button:hover {
+  text-decoration: none;
+  cursor: pointer;
+  border-right: 1px solid rgb(213, 208, 208);
+  border-radius: 0;
+}
+
+.choices button:first-child,
+.choices button:nth-child(2) {
+  background-color: #fff;
+  border: none;
+  border-right: 1px solid rgb(213, 208, 208);
+  border-radius: 0;
+}
+
+.form-control {
+  display: block;
+  /* width: 3rem; */
+  padding: 0.375rem 0.75rem;
+  font-size: 0.75rem;
+  line-height: 1.5;
+  color: #495057;
+  /* background-color: #fff; */
+  background-image: none;
+  background-clip: padding-box;
+  /* border: 1px solid #ced4da; */
+  border-radius: 0.25rem;
+  /* transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s; */
+}
+
+.menuDes {
+  display: none;
+  background-color: #A5BECC;
+}
+
+.calendar {
+  display: none;
+  background-color: #A5BECC;
+}
+
+.menuGuest {
+  display: none;
+  background-color: #A5BECC;
+}
+
+.menuGuest a:hover {
+  background-color: #92a5b0;
+  cursor: pointer;
+}
+
+.profile button {
+  background-color: #fff;
+  border: none;
+}
+
+.profile button:hover {
+  background-color: #EEEEEE;
+  border-radius: 2rem;
+}
+
+.Z-1 {
+  z-index: -1;
+}
+
+.menuDes a:hover {
+  text-decoration: none;
+  border: 0.1rem solid #000;
+}
+
+.calendar button {
+  border-radius: 1.25rem;
+  height: 7vh;
+  width: 10vw;
+}
+
+.calendar button:hover {
+  /* border-radius: 1.25rem; */
+  border: 1px solid #000;
+  cursor: pointer;
+}
+
+.date a {
+  width: 6rem;
+  text-align: center;
+}
+
+.date a:hover {
+  cursor: pointer;
+}
+
+
+/*Scroll Horizontally*/
+
+.horizontal-scroll .main-content li {
+  font-family: sans-serif;
+  margin-left: 20px;
+  list-style: none;
+  flex: 1;
+  cursor: pointer;
+}
+
+.horizontal-scroll .main-content li a {
+  color: #7a7a7a;
+  display: inline-block;
+  text-decoration: none;
+  transition: 0.5s ease;
+}
+
+.horizontal-scroll .main-content li .active {
+  color: #000;
+  border-bottom: 2px solid #000;
+  width: 100%;
+  border-radius: 1px;
+  transition: 0.5s ease;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  position: absolute;
+  white-space: nowrap;
+}
+
+.horizontal-scroll .main-content li :hover {
+  color: #000;
+}
+
+.horizontal-scroll {
+  width: 100%;
+  height: 100px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.horizontal-scroll .btn-scroll {
+  background-color: #ffffff;
+  color: #999;
+  padding: 2px 8px;
+  border-radius: 50%;
+  margin: 0px 5px;
+  z-index: 1;
+  cursor: pointer;
+  border: 1px solid #b0b0b0;
+  transition: 500ms;
+}
+
+.btn-scroll:hover {
+  box-shadow: 0 0 10px #999;
+}
+
+.header-part2 {
+  display: flex;
+  flex-direction: row;
+  margin-right: 40px;
+}
+
+.btn-filter {
+  width: 90px;
+  height: 40px;
+  margin-top: 25px;
+  border-radius: 11px;
+  background-color: #ffffff;
+  border: 1px solid #7a7a7a;
+  transition: 500ms;
+}
+
+.btn-filter:hover {
+  box-shadow: 0 0 10px #999;
+}
+
+
+/* Dropdown Button */
+
+.wrapper .profile .dropdown button {
+  width: 70px;
+  height: 40px;
+  /* margin-top: 25px; */
+  border-radius: 30px;
+  background-color: #ffffff;
+  border: 1px solid #7a7a7a;
+  transition: 500ms;
+  cursor: pointer;
+}
+
+
+/* Dropdown button on hover & focus */
+
+.wrapper .profile .btn-dropdown:hover,
+.wrapper .profile .btn-dropdown:focus {
+  box-shadow: 0 0 10px #999;
+}
+
+
+/* The container <div> - needed to position the dropdown content */
+
+.wrapper .profile .dropdown {
+  position: relative;
+  display: inline-block;
+  white-space: nowrap;
+  margin-right: 20px;
+}
+
+
+/* Dropdown Content (Hidden by Default) */
+
+.wrapper .profile .dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 2;
+  border-radius: 14px;
+}
+
+
+/* Links inside the dropdown */
+
+.wrapper .profile .dropdown-menu a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+/* Change color of dropdown links on hover */
+
+.wrapper .profile .dropdown-menu a:hover {
+  background-color: rgb(241, 214, 218);
+}
+
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+
+.show {
+  display: block;
+}
+
+
+/* Bootstrap css */
+
+
+/* ==========================================================================
+   #FONT
+   ========================================================================== */
+.font-robo {
+  font-family: "Roboto", "Arial", "Helvetica Neue", sans-serif;
+}
+
+.font-poppins {
+  font-family: "Poppins", "Arial", "Helvetica Neue", sans-serif;
+}
+
+/* ==========================================================================
+   #GRID
+   ========================================================================== */
+.row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.row-space {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -moz-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.col-2 {
+  width: -webkit-calc((100% - 60px) / 2);
+  width: -moz-calc((100% - 60px) / 2);
+  width: calc((100% - 60px) / 2);
+}
+
+@media (max-width: 767px) {
+  .col-2 {
+    width: 100%;
+  }
+}
+
+/* ==========================================================================
+   #BOX-SIZING
+   ========================================================================== */
+/**
+ * More sensible default box-sizing:
+ * css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice
+ */
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+/* ==========================================================================
+   #RESET
+   ========================================================================== */
+/**
+ * A very simple reset that sits on top of Normalize.css.
+ */
+body,
+h1, h2, h3, h4, h5, h6,
+blockquote, p, pre,
+dl, dd, ol, ul,
+figure,
+hr,
+fieldset, legend {
+  margin: 0;
+  padding: 0;
+}
+
+/**
+ * Remove trailing margins from nested lists.
+ */
+li > ol,
+li > ul {
+  margin-bottom: 0;
+}
+
+/**
+ * Remove default table spacing.
+ */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/**
+ * 1. Reset Chrome and Firefox behaviour which sets a `min-width: min-content;`
+ *    on fieldsets.
+ */
+fieldset {
+  min-width: 0;
+  /* [1] */
+  border: 0;
+}
+
+button {
+  outline: none;
+  background: none;
+  border: none;
+}
+
+/* ==========================================================================
+   #PAGE WRAPPER
+   ========================================================================== */
+.page-wrapper {
+  min-height: 100vh;
+}
+
+body {
+  font-family: "Poppins", "Arial", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+h5 {
+  font-size: 15px;
+}
+
+h6 {
+  font-size: 13px;
+}
+
+/* ==========================================================================
+   #BACKGROUND
+   ========================================================================== */
+.bg-blue {
+  background: #2c6ed5;
+}
+
+.bg-red {
+  background: #fa4251;
+}
+
+.bg-gra-01 {
+  background: -webkit-gradient(linear, left bottom, left top, from(#fbc2eb), to(#a18cd1));
+  background: -webkit-linear-gradient(bottom, #fbc2eb 0%, #a18cd1 100%);
+  background: -moz-linear-gradient(bottom, #fbc2eb 0%, #a18cd1 100%);
+  background: -o-linear-gradient(bottom, #fbc2eb 0%, #a18cd1 100%);
+  background: linear-gradient(to top, #fbc2eb 0%, #a18cd1 100%);
+}
+
+/* ==========================================================================
+   #SPACING
+   ========================================================================== */
+.p-t-100 {
+  padding-top: 100px;
+}
+
+.p-t-180 {
+  padding-top: 180px;
+}
+
+.p-t-20 {
+  padding-top: 20px;
+}
+
+.p-t-10 {
+  padding-top: 10px;
+}
+
+.p-t-30 {
+  padding-top: 30px;
+}
+
+.p-b-100 {
+  padding-bottom: 100px;
+}
+
+/* ==========================================================================
+   #WRAPPER
+   ========================================================================== */
+.wrapper {
+  margin: 0 auto;
+}
+
+.wrapper--w960 {
+  max-width: 960px;
+}
+
+.wrapper--w780 {
+  max-width: 780px;
+}
+
+.wrapper--w680 {
+  max-width: 680px;
+}
+
+/* ==========================================================================
+   #BUTTON
+   ========================================================================== */
+.btn {
+  display: inline-block;
+  line-height: 40px;
+  padding: 0 33px;
+  font-family: Poppins, Arial, "Helvetica Neue", sans-serif;
+  cursor: pointer;
+  color: #fff;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  font-size: 18px;
+}
+
+.btn--radius {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.btn--pill {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
+
+.btn--green {
+  background: #57b846;
+}
+
+.btn--green:hover {
+  background: #4dae3c;
+}
+
+/* ==========================================================================
+   #DATE PICKER
+   ========================================================================== */
+td.active {
+  background-color: #2c6ed5;
+}
+
+input[type="date" i] {
+  padding: 14px;
+}
+
+.table-condensed td, .table-condensed th {
+  font-size: 14px;
+  font-family: "Roboto", "Arial", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+}
+
+.daterangepicker td {
+  width: 40px;
+  height: 30px;
+}
+
+.daterangepicker {
+  border: none;
+  -webkit-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+  display: none;
+  border: 1px solid #e0e0e0;
+  margin-top: 5px;
+}
+
+.daterangepicker::after, .daterangepicker::before {
+  display: none;
+}
+
+.daterangepicker thead tr th {
+  padding: 10px 0;
+}
+
+.daterangepicker .table-condensed th select {
+  border: 1px solid #ccc;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  font-size: 14px;
+  padding: 5px;
+  outline: none;
+}
+
+/* ==========================================================================
+   #FORM
+   ========================================================================== */
+input {
+  outline: none;
+  margin: 0;
+  border: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  width: 100%;
+  font-size: 14px;
+  font-family: inherit;
+}
+
+.input-icon {
+  position: absolute;
+  font-size: 18px;
+  color: #ccc;
+  right: 8px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.input-group {
+  position: relative;
+  margin-bottom: 33px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.input--style-3 {
+  padding: 5px 0;
+  font-size: 16px;
+  color: #ccc;
+  background: transparent;
+}
+
+.input--style-3::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: #ccc;
+}
+
+.input--style-3:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #ccc;
+  opacity: 1;
+}
+
+.input--style-3::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #ccc;
+  opacity: 1;
+}
+
+.input--style-3:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #ccc;
+}
+
+.input--style-3:-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #ccc;
+}
+
+/* ==========================================================================
+   #SELECT2
+   ========================================================================== */
+.select--no-search .select2-search {
+  display: none !important;
+}
+
+.rs-select2 .select2-container {
+  width: 100% !important;
+  outline: none;
+}
+
+.rs-select2 .select2-container .select2-selection--single {
+  outline: none;
+  border: none;
+  height: 36px;
+  background: transparent;
+}
+
+.rs-select2 .select2-container .select2-selection--single .select2-selection__rendered {
+  line-height: 36px;
+  padding-left: 0;
+  color: #ccc;
+  font-size: 16px;
+  font-family: inherit;
+}
+
+.rs-select2 .select2-container .select2-selection--single .select2-selection__arrow {
+  height: 34px;
+  right: 4px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.rs-select2 .select2-container .select2-selection--single .select2-selection__arrow b {
+  display: none;
+}
+
+.rs-select2 .select2-container .select2-selection--single .select2-selection__arrow:after {
+  font-family: "Material-Design-Iconic-Font";
+  content: '\f2f9';
+  font-size: 18px;
+  color: #ccc;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.rs-select2 .select2-container.select2-container--open .select2-selection--single .select2-selection__arrow::after {
+  -webkit-transform: rotate(-180deg);
+  -moz-transform: rotate(-180deg);
+  -ms-transform: rotate(-180deg);
+  -o-transform: rotate(-180deg);
+  transform: rotate(-180deg);
+}
+
+.select2-container--open .select2-dropdown--below {
+  border: none;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+  border: 1px solid #e0e0e0;
+  margin-top: 5px;
+  overflow: hidden;
+}
+
+/* ==========================================================================
+   #TITLE
+   ========================================================================== */
+.title {
+  font-size: 24px;
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 36px;
+}
+
+/* ==========================================================================
+   #CARD
+   ========================================================================== */
+.card {
+  overflow: hidden;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background: #fff;
+}
+
+.card-3 {
+  background: #000;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  display: table;
+}
+
+.card-3 .card-heading {
+  background: url("../images/bg-heading-03.jpg") top left/cover no-repeat;
+  display: table-cell;
+  width: 50%;
+}
+
+.card-3 .card-body {
+  padding: 57px 65px;
+  padding-bottom: 65px;
+  display: table-cell;
+}
+
+@media (max-width: 767px) {
+  .card-3 {
+    display: block;
+  }
+  .card-3 .card-heading {
+    display: block;
+    width: 100%;
+    padding-top: 400px;
+    background-position: center center;
+  }
+  .card-3 .card-body {
+    display: block;
+    width: 100%;
+    padding: 37px 30px;
+    padding-bottom: 45px;
+  }
+}
+
+.hidden {
+  display: block;
+}
+
+.btn-edit {
+    border: 1px solid slategrey;
+    margin-bottom: 21px;
+    background: forestgreen;
+    width: 20%;
+    border-radius: 30px;
+    height: 33px;
+}
+
+.btn-edit:hover {
+    background-color: darkgreen;
+    transition: 500ms;
+}
+
+.Properties-full {
+    justify-content: space-around;
+}
