@@ -82,6 +82,13 @@
                                             By Admin
                                         </p>
                                     </div>
+                                    
+                                    <div class="news-block-author mx-5">
+                                        <p>
+                                            <i class="bi-person custom-icon me-1"></i>
+                                            Total Donation: ${total}
+                                        </p>
+                                    </div>
 
                                     <div class="news-block-comment">
                                         <p>
@@ -94,11 +101,13 @@
                                 <div class="news-block-title mb-2">
                                     <h2>${post.name}</h2>
                                 </div>
+                                <% if (user1 != null) { %>
                                 <a href="DonationController?action=showDonate&id=${post.ID}" class="btn btn-success">Donate now</a>
-                                
+                                <% } %>
                                 <% if (user1 != null && user1.getRole() == 1) { %>
                                 <a href="CharityPostController?action=edit&id=${post.ID}" class="btn btn-primary">Edit</a>
                                 <a href="delete_confirmation.jsp?url=CharityPostController&action=delete&id=${post.ID}" class="btn btn-danger">Delete</a>
+                                <a href="CharityPostController?action=endDonate&id=${post.ID}" class="btn btn-warning">End Donate</a>
 								<% } %>
                                 <!-- <div class="news-block-body">
                                     <p><strong>Lorem Ipsum</strong> dolor sit amet, consectetur adipsicing kengan omeg
@@ -112,6 +121,11 @@
                                         metus elementum, tempor risus vel, condimentum orci.</blockquote>
                                 </div>
  -->
+ 
+ 								<div class="row mt-5 mb-4">
+ 									<h4>Description: </h4>
+ 									<p>${post.description}</p>
+ 								</div>
                                 <div class="row mt-5 mb-4">
                                     <div class="col-lg-6 col-12 mb-4 mb-lg-0">
                                         <img src="images/news/africa-humanitarian-aid-doctor.jpg"
@@ -124,7 +138,7 @@
                                     </div>
                                 </div>
 
-                                <p>${post.description}</p>
+                                
 
                                 <div class="social-share border-top mt-5 py-4 d-flex flex-wrap align-items-center">
                                     <div class="tags-block me-auto">

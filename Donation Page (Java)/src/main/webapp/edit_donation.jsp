@@ -41,7 +41,7 @@
                     <h2 class="title">edit a donation</h2>
                 </div>
                 <div class="card-body">
-                    <form method="GET" action="CharityPostController">
+                    <form method="POST" action="CharityPostController" enctype='multipart/form-data'>
                         <div class="form-row">
                             <div class="name">Name</div>
                             <div class="value">
@@ -161,10 +161,14 @@
                            </div>
                         </div>
                         <div class="form-row">
+                        	<img alt="" src="<%= session.getAttribute("image") %>" style="width: 100%;">
+                        	<input class="hidden" name="currentImage" value="<%= session.getAttribute("image") %>" style="visibility:hidden">
+                        </div>
+                        <div class="form-row">
                           <div class="name">Upload Image</div>
                           <div class="value">
                               <div class="input-group">
-                                  <input class="input--style-5" type="file" value="<%= session.getAttribute("image") %>" name="image" required>
+                                  <input class="input--style-5" type="file" name="image">
                               </div>
                           </div>
                         </div>

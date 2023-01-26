@@ -36,9 +36,17 @@
 	%>
 	<form method="GET" action="UserController">
 		<div class="input-group rounded row">
-		  <input name="username" value="None" type="text" class="form-control rounded col-lg-4" placeholder="Input Username" aria-label="Search" aria-describedby="search-addon" />
-		  <input name="IDCard" value="0" type="text" class="form-control rounded col-lg-4" placeholder="Input ID Card" aria-label="Search" aria-describedby="search-addon" />
-		  <button type="submit" class="btn btn-primary col-lg-2">Search</button>
+			<div class="mb-2 text-center">
+				 Enter username
+				 <input name="username" value="None" type="text" class="form-control rounded col-lg-4" placeholder="Input Username" aria-label="Search" aria-describedby="search-addon" />
+			</div>
+			<div class="mb-2 text-center">
+				Enter ID Card
+				<input name="IDCard" value="0" type="text" class="form-control rounded col-lg-4" placeholder="Input ID Card" aria-label="Search" aria-describedby="search-addon" />
+			</div>
+			<div class="text-center">
+				<button type="submit" class="btn btn-primary col-lg-2">Search</button>
+			</div>
 		</div>
 		<input class="hidden" name="action" value="searchUser" style="visibility:hidden">	
 	</form>

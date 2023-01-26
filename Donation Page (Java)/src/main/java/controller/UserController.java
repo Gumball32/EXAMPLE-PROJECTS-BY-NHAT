@@ -231,12 +231,14 @@ public class UserController extends HttpServlet {
 				session.setAttribute("msg", "Cannot delete ADMIN");
 				RequestDispatcher rd = request.getRequestDispatcher("index.jsp");
 				rd.forward(request, response);
+				return;
 			}
 			
 			String result = UD.deleteUser(id);
 			
 			if (result == "Success") {
 				session.setAttribute("msg", "Successfully Deleted");
+				logout(request, response);
 			} else if (result == "Failed") {
 				session.setAttribute("msg", result);
 			}
@@ -296,7 +298,7 @@ public class UserController extends HttpServlet {
 			if (containsIllegals(newpassword)) {
 				msg.append("Password has invalid characters <br>");
 			}
-			if (newpassword.length() < 8) {
+			if (newpassword.length() < 6) {
 				msg.append("Password must have at least 6 characters <br>");
 			}
 			if (!newpassword.equals(confirmpassword)) {
@@ -316,18 +318,33 @@ public class UserController extends HttpServlet {
 				return;
 			}
 			
+			//password
+			PasswordGenerator passwordGenerator = new PasswordGenerator.PasswordGeneratorBuilder()
+			        .useDigits(true)
+			        .useLower(true)
+			        .useUpper(true)
+			        .build();
+			MD5 md5 = new MD5();
+			String encryptedPassword = md5.encrypt(newpassword);
+			
 			//get image
 			Part part = request.getPart("image");
-			String filename = getFilename(part);
 			StringBuilder imagePath = new StringBuilder();
-			if (filename == null) {
-				imagePath.append("images/news/medium-shot-volunteers-with-clothing-donations.jpg");
-			} else {
-				imagePath.append("images/" + filename);
-				part.write(filename);
+			if (part == null || !getFilename(part).equals("")) {
+				String filename = getFilename(part);
+				if (filename == null) {
+					imagePath.append("images/news/medium-shot-volunteers-with-clothing-donations.jpg");
+				} else {
+					imagePath.append("images/" + filename);
+					part.write(filename);
+				}
+			}
+			else {
+				imagePath.append(request.getParameter("currentImage"));
 			}
 			
-			User user = new User(lastName, firstName, gender, idCard, date1, username, newpassword, email, phoneNumber, 0, 1, imagePath.toString());
+			
+			User user = new User(lastName, firstName, gender, idCard, date1, username, encryptedPassword, email, phoneNumber, 0, 1, imagePath.toString());
 			String result = UD.updateAccount(user, ID);
 			if (result == "Success") {
 				Mail.sendMail(email, "Account Updated", "Account Updated");
@@ -530,8 +547,19 @@ public class UserController extends HttpServlet {
 				return;
 			}
 			
+			//Generate new password
+			PasswordGenerator passwordGenerator = new PasswordGenerator.PasswordGeneratorBuilder()
+			        .useDigits(true)
+			        .useLower(true)
+			        .useUpper(true)
+			        .build();
+			String password = passwordGenerator.generate(8); // output ex.: lrU12fmM 75iwI90o
+			MD5 md5 = new MD5();
+			String encryptedPassword = md5.encrypt(password);
+			
 			User user = UD.getUser(username);
-			Mail.sendMail(user.getEmail(), "Your Password", "Password: ".concat(user.getPassword()));
+			UD.updatePassword(user.getID(), encryptedPassword);
+			Mail.sendMail(user.getEmail(), "Password: ".concat(password), "New Password");
 			session.setAttribute("msg", "Email Sent");
 			RequestDispatcher rd = request.getRequestDispatcher("login.jsp");
 			rd.forward(request, response);

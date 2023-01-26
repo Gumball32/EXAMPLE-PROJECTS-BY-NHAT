@@ -16,6 +16,9 @@ public class Donation {
 		this.description = description;
 		this.createdDate = createdDate;
 	}
+	
+	public Donation() {
+	}
 	public int getUserID() {
 		return userID;
 	}

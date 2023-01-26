@@ -31,6 +31,12 @@
 	<%@ page import="controller.*" %>
 	<%@ page import="beans.User" %>
 	<% 
+	User usercheck = (User) session.getAttribute("user");
+	if (usercheck == null) {
+		RequestDispatcher rd = request.getRequestDispatcher("index.jsp");
+		rd.forward(request, response);
+	}	
+	
 	try {
 		User user = (User) session.getAttribute("user");
 		pageContext.setAttribute("user", user);
@@ -184,6 +190,9 @@
 		             </div>
 		             <div class="col-sm-1">
 	                 	<a href="UserController?action=logout" class="btn btn-secondary">Sign Out</a>	              	
+		             </div>
+		             <div class="col-sm-1">
+	                 	<a href="DonationController?action=showDonates&userid=${user.getID()}" class="btn btn-dark">Donation History</a>	              	
 		             </div>
 	              </div>
 	              <input class="hidden" name="action" value="edit" style="visibility:hidden">		              	

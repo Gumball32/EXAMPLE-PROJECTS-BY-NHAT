@@ -52,9 +52,14 @@
         </section>
         
         <form action="CharityPostController" method="GET">
-			<div class="input-group mt-2">
-			  <input value="Enter name to search" type="text" name="name" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
-			  <button type="submit" class="btn btn-outline-primary">Search</button>
+			<div class="input-group rounded row">
+				<div class="mb-2 text-center">
+					Enter name of post: 
+					<input value="Enter name to search" type="text" name="name" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+				</div>
+				<div class="text-center">
+					<button type="submit" class="btn btn-outline-primary">Search</button>
+				</div>
 			</div>
 			<input class="hidden" name="action" value="searchPost" style="visibility:hidden">
 		</form>
@@ -67,7 +72,7 @@
 		                    <div class="col-lg-7 col-12">
 		                        <div class="news-block">
 		                            <div class="news-block-top">
-		                                <a href="donation-detail.html">
+		                                <a href="#">
 		                                    <img src="${post.mainImage}"
 		                                        class="rounded mx-auto d-block" alt="" style="
 		                                        width: 100%;
@@ -97,17 +102,23 @@
 		                                        </p>
 		                                    </div>
 		
-		                                    <div class="news-block-author mx-5">
+		                                    <div class="news-block-author mx-3">
 		                                        <p>
 		                                            <i class="bi-person custom-icon me-1"></i>
 		                                            By Admin
 		                                        </p>
 		                                    </div>
 		
-		                                    <div class="news-block-comment">
+		                                    <div class="news-block-comment mx-3">
 		                                        <p>
 		                                            <i class="bi-chat-left custom-icon me-1"></i>
 		                                            End Date: ${post.endDate}
+		                                        </p>
+		                                    </div>
+		                                    
+		                                     <div class="news-block-comment">
+		                                        <p>
+		                                            Post ID: ${post.ID}
 		                                        </p>
 		                                    </div>
 		                                </div>
@@ -124,7 +135,7 @@
 		                                	<%-- <a href="CharityPostController?action=edit&id=${post.ID}" class="btn btn-primary">Edit</a>
 		                                	<a href="CharityPostController?action=delete&id=${post.ID}" class="btn btn-danger">Delete</a> --%>
 		                                </div>
-		                                <% if (user != null && user.getID() == 1) { %>
+		                                <% if (user != null && user.getRole() == 1) { %>
 		                                <div class="form-check">
 										  <input class="form-check-input" type=checkbox name="check" value="${post.ID}" id="checkDelete">
 										  <label class="form-check-label" for="checkDelete">
@@ -140,7 +151,7 @@
 	            </c:forEach>
         		<input class="hidden" name="action" value="showDeleteAll" style="visibility:hidden">
         		<input class="hidden" name="deleteAllType" value="CharityPostController" style="visibility:hidden">
-        		<% if (user != null && user.getID() == 1) { %>
+        		<% if (user != null && user.getRole() == 1) { %>
         		<div class="container my-5">
 		                <div class="row" style="justify-content: center;">
         		<button class="btn btn-info" type="submit">Delete All</button>

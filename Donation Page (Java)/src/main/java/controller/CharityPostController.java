@@ -20,6 +20,7 @@ import javax.servlet.http.HttpSession;
 import javax.servlet.http.Part;
 
 import DAO.CharityPostDAO;
+import DAO.DonationDAO;
 import beans.CharityPost;
 import beans.PostImage;
 
@@ -94,9 +95,13 @@ public class CharityPostController extends HttpServlet {
 				case "searchPost":
 					searchPost(request, response);
 					break;
+				case "endDonate":
+					endPost(request, response);
+					break;
 			}
 		}
 	}
+
 
 	/**
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
@@ -227,18 +232,30 @@ public class CharityPostController extends HttpServlet {
 			Part part = request.getPart("image");
 			String filename = getFilename(part);
 			StringBuilder imagePath = new StringBuilder();
-			if (filename == null) {
-				imagePath.append("images/news/medium-shot-volunteers-with-clothing-donations.jpg");
-			} else {
-				imagePath.append("images/" + filename);
-				part.write(filename);
+			System.out.println(filename);
+			if (part == null || !getFilename(part).equals("")) {
+				if (filename == null) {
+					imagePath.append("images/news/medium-shot-volunteers-with-clothing-donations.jpg");
+				} else {
+					imagePath.append("images/" + filename);
+					part.write(filename);
+				}
+			}
+			else {
+				imagePath.append(request.getParameter("currentImage"));
 			}
 			
 		    Date date = new Date();  
 		    Date date1 =new SimpleDateFormat("yyyy/MM/dd").parse(startDateConverted);
 			Date date2 =new SimpleDateFormat("yyyy/MM/dd").parse(endDateConverted);
 			
-			CharityPost newPost = new CharityPost(ID, name, description, date, date1, date2);
+			if (date2.getTime() - date1.getTime() < 1) {
+				session.setAttribute("msg", "Dates are not valid");
+				response.sendRedirect("create_donate.jsp");
+				return;
+			}
+			
+			CharityPost newPost = new CharityPost(ID, name, description, date, date1, date2, imagePath.toString());
 			CharityPostDAO CPD = new CharityPostDAO();
 			
 			String result = CPD.updatePost(newPost);
@@ -252,8 +269,30 @@ public class CharityPostController extends HttpServlet {
 				response.sendRedirect("create_donate.jsp");
 			}
 		} catch (Exception e) {
-			response.getWriter().println(e);
+			e.printStackTrace();
 		}
+	}
+	
+	private void endPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException  {
+		try {
+			String id = request.getParameter("id");
+			CharityPostDAO CPD = new CharityPostDAO();
+			HttpSession session = request.getSession(true);
+			
+			int result = CPD.endPost(id);
+			
+			if (result == 1) {
+				session.setAttribute("msg", "Ended Donation");
+				RequestDispatcher rd = request.getRequestDispatcher("index.jsp");
+				rd.forward(request, response);
+			} else if (result == 0) {
+				session.setAttribute("msg", result);
+				response.sendRedirect("create_donate.jsp");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
 	}
 
 	protected void showPosts(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -319,6 +358,7 @@ public class CharityPostController extends HttpServlet {
 			session.setAttribute("start", post.getStartDate());
 			session.setAttribute("end", post.getEndDate());
 			session.setAttribute("image", post.getMainImage());
+			session.setAttribute("status", post.getStatus());
 			RequestDispatcher rd = request.getRequestDispatcher("edit_donation.jsp");
 			rd.forward(request, response);
 		} catch (Exception e) {
@@ -395,6 +435,7 @@ public class CharityPostController extends HttpServlet {
 		try {
 			HttpSession session = request.getSession(true);
 			CharityPostDAO dao = new CharityPostDAO();
+			DonationDAO DDAO = new DonationDAO();
 			String id = request.getParameter("id");
 			
 			if (id.equals(null)) {
@@ -404,7 +445,9 @@ public class CharityPostController extends HttpServlet {
 			}
 			
 			CharityPost post = dao.getPost(id);
+			int total = DDAO.getTotalAmountDonation(id);
 			request.setAttribute("post", post);
+			request.setAttribute("total", total);
 			
 			RequestDispatcher rd = request.getRequestDispatcher("donation-detail.jsp");
 			rd.forward(request, response);

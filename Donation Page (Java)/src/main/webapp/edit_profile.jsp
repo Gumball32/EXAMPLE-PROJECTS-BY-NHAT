@@ -69,7 +69,7 @@
             <div class="card card-4">
                 <div class="card-body">
                     <h2 class="title">Edit Form</h2>
-                    <form method="GET" action="UserController?action=edit_profile">
+                    <form method="POST" action="UserController?action=edit_profile" enctype='multipart/form-data'>
                         <div class="row row-space">
                             <div class="col-2">
                                 <div class="input-group">
@@ -123,7 +123,7 @@
                                 <div class="input-group">
                                     <label class="label">Birthday</label>
                                     <div class="input-group-icon">
-                                        <input class="input--style-4" type="date" name="birthday" required>
+                                        <input class="input--style-4" type="date" name="birthday" value="${user.getDOB()}" required>
                                     </div>
                                 </div>
                             </div>
@@ -158,11 +158,15 @@
                             </div>
                         </div>
                         <div class="row row-space">
+                        	<img alt="" src="${user.getMainImage()}">
+                        	<input class="hidden" name="currentImage" value="${user.getMainImage()}" style="visibility:hidden">
+                        </div>
+                        <div class="row row-space">
                         	<div class="form-row">
 			                         <div class="name">Upload Image</div>
 			                         <div class="value">
 		                             <div class="input-group">
-		                                 <input class="input--style-5" type="file" name="image" required>
+		                                 <input class="input--style-5" type="file" name="image">
 		                             </div>
 		                         </div>
 	                        </div>

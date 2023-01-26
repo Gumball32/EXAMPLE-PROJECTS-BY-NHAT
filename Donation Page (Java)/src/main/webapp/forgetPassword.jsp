@@ -143,13 +143,16 @@
   %>
     <div class="main-block">
       <h1>Registration</h1>
-      <form action="UserController?action=forgetPassword" method="GET">
+      <form action="UserController" method="GET">
         <label id="icon" for="name"><i class="fas fa-user"></i></label>
         <input type="text" name="username" id="username" placeholder="Username" required/>
         <hr>
-        <input value="${username}" class="hidden" name="action" value="forgetPassword" style="visibility:hidden">
+        <input class="hidden" name="action" value="forgetPassword" style="visibility:hidden">
         <div class="btn-block">
           <button type="submit">Submit</button>
+        </div>
+        <div class="btn-block">
+          <a class="btn btn-primary" href="index.jsp">Home</a>
         </div>
       </form>
     </div>

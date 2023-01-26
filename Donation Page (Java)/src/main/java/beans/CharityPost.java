@@ -46,7 +46,38 @@ public class CharityPost {
 	private Date startDate;
 	private Date endDate;
 	private String mainImage;
+	private int status;
 	
+	
+	public CharityPost(int iD, String name, String description, Date createdDate, Date startDate, Date endDate,
+			String mainImage, int status) {
+		super();
+		ID = iD;
+		this.name = name;
+		this.description = description;
+		this.createdDate = createdDate;
+		this.startDate = startDate;
+		this.endDate = endDate;
+		this.mainImage = mainImage;
+		this.status = status;
+	}
+	public int getStatus() {
+		return status;
+	}
+	public void setStatus(int status) {
+		this.status = status;
+	}
+	public CharityPost(int iD, String name, String description, Date createdDate, Date startDate, Date endDate,
+			String mainImage) {
+		super();
+		ID = iD;
+		this.name = name;
+		this.description = description;
+		this.createdDate = createdDate;
+		this.startDate = startDate;
+		this.endDate = endDate;
+		this.mainImage = mainImage;
+	}
 	public CharityPost(String name, String description, Date createdDate, Date startDate, Date endDate,
 			String mainImage) {
 		super();

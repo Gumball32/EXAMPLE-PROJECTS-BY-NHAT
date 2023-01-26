@@ -104,6 +104,26 @@ public class UserDAO {
 		return "Failed";
 	}
 	
+	public String updatePassword(int id, String password) throws Exception {
+		Connection connection = new DBContext().getConnection();
+		int rs = 0;
+		try {
+			PreparedStatement st = connection.prepareStatement("update Users set Password=? "
+					+ " where ID=?");
+			st.setString(1, password);
+			st.setInt(2, id);
+			rs = st.executeUpdate();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		if (rs != 0) {
+			return "Success";
+		}
+		
+		return "Failed";
+	}
+	
 	public List<User> findUsers(String username, String IDCard) throws Exception {
 		Connection connection = new DBContext().getConnection();
 		List<User> list = new ArrayList<>();	

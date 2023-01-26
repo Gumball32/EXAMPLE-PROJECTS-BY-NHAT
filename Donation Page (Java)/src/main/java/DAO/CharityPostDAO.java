@@ -55,7 +55,7 @@ public class CharityPostDAO {
 			String startDate = mdyFormat.format(post.getStartDate());
 			String endDate = mdyFormat.format(post.getEndDate());
 			String createdDate = mdyFormat.format(post.getCreatedDate());
-			sql = "insert into CharityPost values('" + post.getName() + "'," + "'" + post.getDescription() + "'," + "'" + startDate + "'," + "'" + endDate + "'," + "'" + createdDate + "'," + "'" + post.getMainImage() + "')";
+			sql = "insert into CharityPost values('" + post.getName() + "'," + "'" + post.getDescription() + "'," + "'" + startDate + "'," + "'" + endDate + "'," + "'" + createdDate + "'," + "'" + 1 + "','" + post.getMainImage() + "')";
 			rs = statement.executeUpdate(sql);
 			
 		} catch (Exception e) {
@@ -73,7 +73,7 @@ public class CharityPostDAO {
 		int rowsAffedted = 0;
 		Connection connection = new DBContext().getConnection();
 		try {
-			PreparedStatement st = connection.prepareStatement("DELETE FROM CharityPost WHERE ID = ?");
+			PreparedStatement st = connection.prepareStatement("update CharityPost set Status=0 where ID=?");
 	        st.setString(1,id);
 	        rowsAffedted = st.executeUpdate();
 			
@@ -102,6 +102,7 @@ public class CharityPostDAO {
 					+ "',Description = '" + post.getDescription()
 					+ "',StartDate = '" + startDate
 					+ "',EndDate = '" + endDate
+					+ "',Image = '" + post.getMainImage()
 					+ "' where ID=" + post.getID();
 			rs = statement.executeUpdate(sql);
 			
@@ -114,6 +115,31 @@ public class CharityPostDAO {
 		}
 		
 		return sql;
+	}
+	
+	public int endPost(String id) throws Exception {
+		int rs = 0;
+		String sql = "";
+		try {
+			Connection connection = new DBContext().getConnection();
+			Statement statement = connection.createStatement();
+			long millis=System.currentTimeMillis();  
+		    Date date = new java.sql.Date(millis);
+		    SimpleDateFormat mdyFormat = new SimpleDateFormat("MM-dd-yyyy");
+			String endDate = mdyFormat.format(date);
+			sql = "update CharityPost "
+					+ " set EndDate = '" + endDate
+					+ "' where ID=" + id;
+			rs = statement.executeUpdate(sql);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		if (rs != 0) {
+			return 1;
+		}
+		
+		return 0;
 	}
 	
 	public int getTotalPost() throws Exception {
@@ -140,7 +166,7 @@ public class CharityPostDAO {
 		try {
 			Statement statement = connection.createStatement();
 			ResultSet rs = statement.executeQuery("select * "
-					+ "								from (select *, ROW_NUMBER() OVER(ORDER BY ID) as row from CharityPost) as r"
+					+ "								from (select *, ROW_NUMBER() OVER(ORDER BY ID) as row from CharityPost where Status=1) as r"
 					+ 								" where r.row > " + (start - 1) + " and r.row <=" + (start + total));
 			
 			while (rs.next()) {
@@ -180,6 +206,7 @@ public class CharityPostDAO {
 				post.setEndDate(rs.getDate("EndDate"));
 				post.setID(rs.getInt("ID"));
 				post.setMainImage(rs.getString("Image"));
+				post.setStatus(rs.getInt("Status"));
 				
 				list.add(post);
 			}
@@ -208,6 +235,8 @@ public class CharityPostDAO {
 				post.setStartDate(rs.getDate("StartDate"));
 				post.setEndDate(rs.getDate("EndDate"));
 				post.setID(rs.getInt("ID"));
+				post.setMainImage(rs.getString("Image"));
+				post.setStatus(rs.getInt("Status"));
 				
 				list.add(post);
 			}
