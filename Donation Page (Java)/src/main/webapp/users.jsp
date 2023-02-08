@@ -57,10 +57,10 @@
 		    User ID: ${user.getID()}
 		  </div>
 		  <div class="card-body">
-		    <h5 class="card-title">${user.firstName} ${user.lastName}</h5>
-		    <p class="card-text">${user.username}</p>
-		    <p class="card-text">${user.DOB}</p>
-		    <p class="card-text">${user.getIDCard()}</p>
+		    <h5 class="card-title">Name: ${user.firstName} ${user.lastName}</h5>
+		    <p class="card-text">Username: ${user.username}</p>
+		    <p class="card-text">DOB: ${user.DOB}</p>
+		    <p class="card-text">ID: ${user.getIDCard()}</p>
 		    <a href="delete_confirmation.jsp?url=UserController&action=delete&id=${user.getID()}" class="btn btn-danger">Delete</a>
 		    <a href="UserController?action=forgetPassword&username=${user.username}" class="btn btn-warning">Reset Password</a>
 		    <a class="btn btn-primary" id="btn btn-edit" href="UserController?action=editAsAdmin&ID=${user.getID()}">Edit</a>

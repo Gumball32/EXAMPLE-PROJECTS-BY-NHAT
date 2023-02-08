@@ -319,11 +319,11 @@ public class UserController extends HttpServlet {
 			}
 			
 			//password
-			PasswordGenerator passwordGenerator = new PasswordGenerator.PasswordGeneratorBuilder()
-			        .useDigits(true)
-			        .useLower(true)
-			        .useUpper(true)
-			        .build();
+//			PasswordGenerator passwordGenerator = new PasswordGenerator.PasswordGeneratorBuilder()
+//			        .useDigits(true)
+//			        .useLower(true)
+//			        .useUpper(true)
+//			        .build();
 			MD5 md5 = new MD5();
 			String encryptedPassword = md5.encrypt(newpassword);
 			
@@ -347,7 +347,7 @@ public class UserController extends HttpServlet {
 			User user = new User(lastName, firstName, gender, idCard, date1, username, encryptedPassword, email, phoneNumber, 0, 1, imagePath.toString());
 			String result = UD.updateAccount(user, ID);
 			if (result == "Success") {
-				Mail.sendMail(email, "Account Updated", "Account Updated");
+				Mail.sendMail(email, "username: ".concat(username).concat(" password: ".concat(newpassword)), "Account Updated");
 				session.setAttribute("msg", "Successfully Updated");
 				RequestDispatcher rd = request.getRequestDispatcher("profile.jsp");
 				rd.forward(request, response);
