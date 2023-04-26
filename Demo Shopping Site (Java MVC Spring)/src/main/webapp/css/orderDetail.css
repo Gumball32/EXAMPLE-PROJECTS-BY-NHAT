@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header, footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+header h1, footer p {
+  margin: 0;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.product-image {
+  flex: 0 0 40%;
+  margin-right: 20px;
+}
+
+.product-image img {
+  width: 100%;
+}
+
+.product-info {
+  flex: 0 0 50%;
+}
+
+.product-info h2 {
+  font-size: 24px;
+  margin-top: 0;
+}
+
+.product-info p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.product-info form {
+  display: flex;
+  align-items: center;
+}
+
+.product-info label {
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.product-info input {
+  font-size: 16px;
+  padding: 5px;
+  width: 50px;
+  text-align: center;
+}
+
+.product-info button {
+  font-size: 16px;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.product-info button:hover {
+  background-color: #666;
+}

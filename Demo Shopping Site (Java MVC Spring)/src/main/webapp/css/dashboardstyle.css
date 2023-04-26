@@ -1,0 +1,82 @@
+@keyframes blink {
+    0% {
+        opacity: 0
+    }
+    49% {
+        opacity: 0
+    }
+    50% {
+        opacity: 1
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+.bg-oldlace{
+    background-color: oldlace;
+}
+.border-radius-25px{
+    border-radius: 25px;
+}
+
+.border-radius-top-25px{
+    border-radius: 25px 25px 0 0;
+}
+
+.bg-powderblue{
+    background-color: powderblue;
+}
+
+.bg-mediumspringgreen{
+    background-color: mediumspringgreen;
+}
+
+.bg-plum{
+    background-color: plum;
+}
+
+.bg-lightcoral{
+    background-color: lightcoral;
+}
+
+.blink {
+    animation-name: blink;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+.access-denied {
+    height: 100vh;
+    padding-top: 25vh;
+}
+
+#home {
+    padding-top: 20vh;
+}
+
+#hello-robot {
+    width: 20rem;
+}
+
+.pagination {
+    left: 40%;
+}
+
+#toastContainer .toast-header {
+    gap: 10px;
+}
+
+#toastContainer button {
+    display: none;
+}
+
+#toastContainer .toast-header small.timer {
+    margin-left: 85px;
+}
+
+@media(max-width: 576px) {
+    #hello-robot {
+        width: 10rem;
+    }
+}

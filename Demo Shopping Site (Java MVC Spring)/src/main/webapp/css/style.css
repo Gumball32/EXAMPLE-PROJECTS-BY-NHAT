@@ -1,0 +1,432 @@
+/* ======  scroll bar ====== */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+
+/* Handle on hover */
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+
+/* ============================== */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+button {
+    font-family: 'Telegrafico' !important;
+}
+
+p,
+ul li,
+form,
+input {
+    font-family: 'Thasadith' !important;
+    font-weight: bold !important;
+}
+
+body {
+    /* position: relative ;
+    border-radius: 30px ;  */
+    background: rgb(189, 220, 179);
+}
+
+.w-50 {
+    width: 50% !important;
+}
+
+.w-10 {
+    width: 10% !important;
+}
+
+.left-50 {
+    left: 50%!important;
+}
+
+.left-40 {
+    left: 40%!important;
+}
+
+.left-45 {
+    left: 45%!important;
+}
+
+.top-30 {
+    top: 30%!important;
+}
+
+.top-40 {
+    top: 40%!important;
+}
+
+.fs-30px {
+    font-size: 30px !important;
+}
+
+.fs-40px {
+    font-size: 40px !important;
+}
+
+.border-radius-25px {
+    border-radius: 25px !important;
+}
+
+.left-border-radius-25px {
+    border-radius: 25px 0px 0px 25px !important;
+}
+
+.right-border-radius-25px {
+    border-radius: 0px 25px 25px 0px !important;
+}
+
+.z-index-infront-all {
+    z-index: 10000 !important;
+}
+
+.bg-darksolomon {
+    background-color: darksalmon;
+}
+
+button.btn {
+    padding: 15px 35px;
+}
+
+button {
+    transition: 200ms !important;
+    box-shadow: none !important;
+}
+
+#toastContainer .toast-header {
+    gap: 10px;
+}
+
+#toastContainer button {
+    display: none;
+}
+
+#toastContainer .toast-header small.timer {
+    margin-left: 85px;
+}
+
+.pe-block {
+    cursor: not-allowed;
+}
+
+
+/* nav bar */
+
+nav :hover {
+    color: orange !important;
+}
+
+nav .title {
+    font-family: Thasadith;
+    color: #BD5F0480 !important;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+nav .home {
+    font-family: 'Telegrafico';
+    color: #000000;
+    font-size: 30px;
+}
+
+.SignUp-BT {
+    border: 3px solid #C46744 !important;
+    border-radius: 25px !important;
+    background: linear-gradient(0deg, #C46744, #C46744), linear-gradient(0deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0))!important;
+    font-size: 23px !important;
+}
+
+.Login-BT {
+    border: 3px solid #C46744 !important;
+    border-radius: 25px !important;
+    background: transparent !important;
+    color: #C46744 !important;
+    font-size: 23px !important;
+}
+
+
+/* HomePage */
+
+.main-banner-homepage img {
+    border-radius: 50px;
+    /* width: 40%; */
+}
+
+.main-banner-homepage p {
+    font-family: 'Thasadith';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    color: #000000;
+}
+
+.main-banner-homepage span {
+    color: #BD5F0480;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.card img {
+    object-fit: cover;
+    height: 50vh;
+    float: left;
+}
+
+.text-orange {
+    color: #fe8704!important;
+}
+
+input[type=number].phone-number-input::-webkit-inner-spin-button,
+input[type=number].phone-number-input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+
+/* ********************************************* */
+
+
+/* payment site */
+
+.payment-button {
+    border: 2px solid #adb7ae;
+    transition-duration: 0.35s;
+    background-color: green;
+}
+
+.payment-button:hover {
+    background-color: #BD5F0480;
+    color: black;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.payment-button a {
+    text-decoration: none !important;
+}
+
+.payment-button-container {
+    bottom: 0;
+}
+
+.payment-card span.payment-icon {
+    right: 0;
+    top: 5px;
+    font-size: 42px;
+}
+
+.payment-icon img {
+    height: 20px;
+    width: 30px;
+    margin-right: 15px;
+}
+
+.payment-button-container button {
+    border-radius: 25px;
+}
+
+.pay-text {
+    color: #BD5F0480!important;
+}
+
+input.payment-input {
+    background-color: aqua !important;
+}
+
+.payment {
+    background: #f8f9fb !important;
+}
+
+.input-group-text.p-0.m-2 {
+    background-color: transparent !important;
+    border: none !important;
+}
+
+.payment-bar {
+    width: 100%;
+}
+
+.payment {
+    border-radius: 25px;
+}
+
+img.payment-transfer-img {
+    object-fit: cover;
+    height: 35vh;
+}
+
+
+/* payment site */
+
+
+/* ********************************************* */
+
+
+/* Contact site */
+
+.contact {
+    background: white;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: bold !important;
+}
+
+.contact iframe {
+    height: 700px;
+    /* width: 50%; */
+    border-radius: 5%;
+}
+
+.contact .form-message {
+    height: 200px;
+    align-self: top !important;
+    align-items: top !important;
+}
+
+
+/* End Contact Site */
+
+
+/* ********************************************* */
+
+
+/* media responsive */
+
+
+/* X-Large devices (large desktops, 1200px and up) */
+
+@media (max-width: 1200px) {
+    .SignUp-BT,
+    .Login-BT {
+        width: 8rem;
+        padding: 10px 0px;
+        text-align: center;
+    }
+    .user {
+        height: 400px;
+        background: black;
+    }
+}
+
+@media (max-width: 768px) {
+    .main-bg-order-food {
+        padding-bottom: 50px;
+    }
+    .main-bg-order-food img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 576px) {
+    .main-bg-order-food {
+        padding-bottom: 35px;
+    }
+}
+
+
+/*Payment size*/
+
+.btn-booking-table {
+    color: coral;
+    font-size: 23px;
+}
+
+
+/*User site*/
+
+button.btn1 {
+    margin: 10px;
+    background-color: floralwhite;
+    display: block;
+    padding: auto;
+    width: 105px;
+    border-radius: 15px;
+}
+
+button.btn.btn-outline-warning.p-2.mt-3.w-100:hover {
+    background-color: rgb(235, 193, 166);
+}
+
+
+/* product */
+
+.amount-food-spinner,
+.time-picker-section {
+    height: 56px;
+}
+
+.amount-food-spinner span.ui-spinner {
+    flex: 1 1 auto !important;
+}
+
+button.shoping-cart-btn {
+    right: 20px;
+    bottom: 15px;
+    border-radius: 100%;
+    z-index: 1;
+}
+
+
+/* product */
+
+
+/* user */
+
+.avatar {
+    vertical-align: middle;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.modal-dialog.modal-dialog-scrollable {
+    max-width: 700px;
+}
+
+button.edit-btn {
+    padding: 15px 110px;
+    background-color: rgb(250, 200, 152);
+    display: block;
+    margin: auto;
+    border-radius: 25px;
+    width: 100%;
+}
+
+button.upload-btn {
+    padding: 15px 110px;
+    background-color: rgb(250, 200, 152);
+    display: block;
+    margin: auto;
+    border-radius: 25px;
+    width: 100%;
+}
+
+
+/* user */
